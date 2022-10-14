@@ -554,7 +554,7 @@ footer {
 .fashion {
     margin: 50px 0;
     background: #E8E8E8;
-    padding: 35px 70px 5px 70px;
+    padding: 35px 79px 5px 79px;
 }
 
 .fashion h2 {
@@ -577,7 +577,7 @@ footer {
 .storyMovie {
     margin-top: 50px;
     background: #E8E8E8;
-    padding: 25px 60px;
+    padding: 25px 79px;
 }
 
 .storyMovieText {
@@ -1201,6 +1201,14 @@ footer {
 }
 
 /* // X-Large devices (large desktops, less than 1400px) */
-@media (max-width: 1399.98px) {
-    ...
+@media (min-width: 1000px) {
+    footer {
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+
+    .careerWrap, .event, .family, .latestUpdate, .womenpreneur {
+        margin-left: 79px;
+        margin-right: 79px;
+    }
 }
