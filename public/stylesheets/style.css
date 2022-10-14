@@ -1,0 +1,1206 @@
+body {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+button,
+a {
+    text-decoration: none;
+    transition: all .5s ease;
+    display: inline-block;
+}
+
+button,
+textarea,
+select,
+input {
+    font-family: Josefin Sans;
+    outline: none;
+    line-height: 14px;
+}
+
+strong {
+    font-weight: 600;
+}
+
+h1 {
+    position: absolute;
+    clip: rect(1px, 1px, 1px, 1px);
+    -webkit-clip-path: inset(0px 0px 99.9% 99.9%);
+    clip-path: inset(0px 0px 99.9% 99.9%);
+    overflow: hidden;
+    height: 1px;
+    width: 1px;
+    padding: 0;
+    border: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+.img-wide {
+    width: 100%;
+    height: auto;
+}
+
+.no-pad {
+    padding: 0;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.flex {
+    display: flex;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.navbar {
+    padding-top: 35px;
+}
+
+.navbar .container-fluid {
+    flex-direction: column;
+}
+
+.navbar-brand {
+    padding: 0;
+    margin: 0;
+}
+
+.nav-link {
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 13px;
+    letter-spacing: 0em;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 0px;
+    margin: 0 25px;
+    color: #000;
+}
+
+.navbar-collapse {
+    margin-top: 36px;
+}
+
+/* .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; 
+} */
+.dropdown .dropdown-menu a {
+    color: #6C6C6C;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.dropdown-toggle::after {
+    color: #D2232A;
+}
+
+#homeSlider {
+    margin-bottom: 50px;
+}
+
+.carousel-caption {
+    background: #fff;
+    right: 20%;
+    left: 20%;
+    color: #000;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+}
+
+.carousel-caption h5 {
+    font-size: 30px;
+    font-weight: 400;
+    font-family: Libre Baskerville;
+}
+
+.carousel-caption p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+}
+
+.carousel-caption .carousel-category {
+    position: absolute;
+    background: #D2232A;
+    color: #fff;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 16px;
+    padding: 8px 10px;
+    top: -20px;
+    min-width: 130px;
+    left: 50%;
+    margin-left: -65px;
+}
+
+.bilboardAds {
+    text-align: center;
+}
+
+.title-section {
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 63px;
+    color: #D2232A;
+    font-family: Libre Baskerville;
+}
+
+.mostView {
+    margin-top: 50px;
+}
+
+.event h2,
+.mostView h2 {
+    text-align: center;
+    margin: 0;
+}
+
+.mostView-wrap {
+    background: #E8E8E8;
+    padding: 30px 70px;
+    position: relative;
+    margin-top: 35px;
+}
+
+.mostView-slider .item {
+    margin: 0 10px;
+}
+
+.updateList .item a,
+.event-slider .item a,
+.mostView-slider .item a {
+    display: block;
+}
+
+.mostView-desc a {
+    color: #000;
+    font-family: Libre Baskerville;
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 300;
+}
+
+.viewCat {
+    color: #D2232A;
+    font-style: italic;
+    font-size: 12px;
+    line-height: 12px;
+    margin: 10px 0;
+    display: inline-block;
+}
+
+footer {
+    background: #000;
+    color: #fff;
+    margin-top: 30px;
+    padding-top: 40px;
+    padding-bottom: 25px;
+}
+
+.subscriber {
+    margin-bottom: 25px;
+    align-items: center;
+}
+
+.subscriber button {
+    background: #D2232A;
+    color: #fff;
+    height: 34px;
+    border: 1px solid #D2232A;
+    padding: 5px 15px 0px 15px;
+}
+
+.subscriber input {
+    width: 100%;
+    height: 34px;
+    padding: 0 10px;
+}
+
+.footer-sosmed {
+    margin: 30px 0;
+}
+
+.footer-sosmed a {
+    width: 100%;
+}
+
+.copyright {
+    font-size: 13px;
+    line-height: 13px;
+}
+
+.bottom-nav {
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.bottom-nav li {
+    margin-bottom: 10px;
+}
+
+.bottom-nav li a {
+    color: #fff;
+}
+
+.bottom-nav li a:hover {
+    color: #D2232A;
+}
+
+.logo-partner img {
+    margin-top: 30px;
+    margin-right: 15px;
+}
+
+.logo-partner img:first-child {
+    margin-top: 0px;
+}
+
+.event {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.event-slider {
+    margin-top: 35px;
+}
+
+.event-slider .item {
+    margin: 0 10px;
+    padding: 15px;
+    color: #000;
+    background: #F0F0F0;
+}
+
+.event-slider .item .titleEvent {
+    color: #000;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 25px;
+}
+
+.event-slider .item .titleEvent:hover {
+    color: #D2232A;
+}
+
+.event-slider .item p {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 15px;
+    margin-bottom: 10px;
+}
+
+.event-slider .item .dateEvent img {
+    display: inline-block;
+    vertical-align: baseline;
+}
+
+.latestUpdate {
+    margin-top: 55px;
+    position: relative;
+
+}
+
+.latestUpdate h2 {
+    background: #D2232A;
+    border-radius: 4px;
+    padding: 3px 15px;
+    color: #fff;
+    display: inline-block;
+    font-weight: 300;
+    position: relative;
+    z-index: 2;
+    font-size: 50px;
+}
+
+.latestUpdate:before {
+    content: '';
+    position: absolute;
+    top: 35px;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    border-top: 1px dotted #9f9f9f;
+}
+
+.updateList {
+    margin: 10px -10px 50px -10px;
+}
+
+.updateList .item {
+    margin: 0 10px;
+    position: relative;
+}
+
+.updateList .item:nth-child(2):after {
+    content: '';
+    position: absolute;
+    top: -50px;
+    right: -10px;
+    height: 110%;
+    z-index: 1;
+    border-right: 1px dotted #9f9f9f;
+}
+
+.updateList .item:nth-child(2):before {
+    content: '';
+    position: absolute;
+    top: -50px;
+    left: -10px;
+    height: 110%;
+    z-index: 1;
+    border-left: 1px dotted #9f9f9f;
+}
+
+.updateList p {
+    margin-bottom: 5px;
+    font-size: 18px;
+    line-height: 18px;
+}
+
+.readMore {
+    display: inline-block !important;
+    color: #D2232A;
+    font-style: italic;
+}
+
+.updateList .titleEvent {
+    color: #000;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.careerWrap {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.careerWrap h2 {
+    display: inline-block;
+    background: #fff;
+    position: relative;
+    z-index: 2;
+    padding: 0 20px;
+}
+
+.careerTitle {
+    text-align: center;
+    position: relative;
+}
+
+.careerTitle:after {
+    content: '';
+    position: absolute;
+    top: 35px;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    border-top: 1px dotted #9f9f9f;
+}
+
+.careerWrap .event-slider {
+    margin: 0 -10px 0 -10px;
+    display: flex;
+}
+
+.careerWrap .event-slider .item {
+    position: relative;
+}
+
+.careerWrap .event-slider .item:nth-child(2):after {
+    content: '';
+    position: absolute;
+    top: -35px;
+    right: -10px;
+    height: 107%;
+    z-index: 1;
+    border-right: 1px dotted #9f9f9f;
+}
+
+.careerWrap .event-slider .item:nth-child(2):before {
+    content: '';
+    position: absolute;
+    top: -35px;
+    left: -10px;
+    height: 107%;
+    z-index: 1;
+    border-left: 1px dotted #9f9f9f;
+}
+
+.careerWrap .slick-list {
+    overflow: inherit;
+}
+
+.womenpreneur {
+    margin-top: 50px;
+    position: relative;
+}
+
+.womenpreneur h2 {
+    background: #fff;
+    padding: 0 20px 0 0;
+    position: relative;
+    z-index: 2;
+    display: inline-block;
+}
+
+.womenpreneur:before {
+    content: '';
+    position: absolute;
+    top: 35px;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    border-top: 1px dotted #9f9f9f;
+}
+
+.womenpreneurList .inside a {
+    display: block;
+}
+
+.womenpreneurList .inside {
+    background: #E8E8E8;
+}
+
+.womenpreneurList .item {
+    padding: 0 15px;
+}
+
+.womenpreneurList {
+    margin: 0 -15px 40px -15px;
+}
+
+.womenpreneurList p {
+    font-size: 18px;
+    line-height: 18px;
+}
+
+.womenpreneurList .titleEvent {
+    font-family: Libre Baskerville;
+    font-size: 34px;
+    line-height: 39px;
+    color: #000;
+}
+
+.desc {
+    padding: 5px 28px;
+}
+
+.womenpreneurList .inside .desc a {
+    display: inline-block;
+}
+
+.marg {
+    margin: 0 auto;
+    padding: 20px 0 0 0;
+}
+
+.preneurThumb a p {
+    color: #000;
+    font-family: Libre Baskerville;
+    font-size: 24px;
+    line-height: 27px;
+}
+
+.preneurThumb .viewCat {
+    margin-bottom: 0;
+}
+
+.fashion {
+    margin: 50px 0;
+    background: #E8E8E8;
+    padding: 35px 70px 5px 70px;
+}
+
+.fashion h2 {
+    display: inline-block;
+    background: #E8E8E8;
+    position: relative;
+    z-index: 2;
+    padding: 0 20px;
+}
+
+.fashion .updateList .item:nth-child(2):after,
+.fashion .updateList .item:nth-child(2):before {
+    display: none;
+}
+
+.fashion .updateList {
+    margin: 0px -10px 10px -10px;
+}
+
+.storyMovie {
+    margin-top: 50px;
+    background: #E8E8E8;
+    padding: 25px 60px;
+}
+
+.storyMovieText {
+    background: #fff;
+    height: 100%;
+    padding: 22px 48px 22px 0;
+}
+
+.storyMovieText .flex {
+    flex-direction: column;
+    text-align: center;
+    height: 100%;
+    padding: 0 40px;
+    color: #000;
+    justify-content: center;
+    border: 1px solid #000;
+    border-left: 0;
+}
+
+.storyMovieText .date {
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+
+.storyMovieText .nameActris {
+    font-size: 30px;
+    line-height: 34px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    font-family: Libre Baskerville;
+}
+
+.storyMovieText .storyActris {
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.storyMovieText .reader {
+    font-size: 16px;
+    line-height: 16px;
+    background: #D2232A;
+    color: #fff;
+    width: 38%;
+    font-style: italic;
+    margin: 0 auto;
+    padding: 8px 0px;
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.family .title-section span {
+    font-size: 25px;
+}
+
+.family .event-slider .item {
+    background: #fff;
+}
+
+.videoMovie {
+    background: #E8E8E8;
+    padding: 25px 70px 0px 70px;
+}
+
+.videoMovie .womenpreneurList .inside {
+    background: #fff;
+}
+
+.womenpreneur.videoMovie:before {
+    display: none;
+}
+
+.womenpreneur.videoMovie h2 {
+    background: #E8E8E8;
+}
+
+.videoMovie .womenpreneurList .inside .preneurThumb {
+    background: #E8E8E8;
+    padding-bottom: 20px;
+}
+
+.videoMovie .preneurThumb a p {
+    margin: 0;
+}
+
+.videoMovie .preneurThumb img {
+    margin-bottom: 15px;
+}
+
+.videoPlay {
+    position: relative;
+}
+
+.videoPlay .playBtn {
+    position: absolute;
+    top: 50%;
+    margin-top: -40px;
+    left: 50%;
+    margin-left: -40px;
+    cursor: pointer;
+}
+
+.latestUpdate.food h2 {
+    background: #fff;
+    color: #D2232A;
+}
+
+.navbar-toggler {
+    border: 0;
+    position: absolute;
+    left: 0;
+    outline: none;
+}
+
+.navbar-toggler img {
+    width: 40px;
+}
+
+.logoMobile {
+    display: none;
+    position: relative;
+}
+
+.logoMobile .arrMobile {
+    width: 35px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.logoMobile .logoMobile {
+    width: 100px;
+    margin-top: 40px;
+}
+
+.mobile {
+    display: none;
+}
+
+.mobileAds {
+    width: 150px;
+    margin: 0 auto;
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .carousel-caption h5 {
+        font-size: 20px;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    #homeSlider {
+        margin-bottom: 15px;
+    }
+
+    .womenpreneur,
+    .careerWrap,
+    .latestUpdate,
+    .event-slider,
+    .event,
+    .mostView {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    #homeSlider .carousel-item img {
+        object-fit: none; /* Do not scale the image */
+        object-position: center top; /* Center the image within the element */
+        height: 400px;
+        width: 100%;
+    }
+
+    .carousel-caption .carousel-category {
+        font-size: 12px;
+    }
+
+    .carousel-caption {
+        left: 8%;
+        right: 8%;
+    }
+
+    .mostView-wrap {
+        background: #fff;
+        padding: 0px 0px;
+        position: relative;
+        margin-top: 15px;
+    }
+
+    .event-slider .item .titleEvent,
+    .mostView-desc a {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .updateList .item,
+    .event-slider .item,
+    .mostView-slider .item {
+        margin: 0 5px;
+    }
+
+    .slick-list {
+        padding-left: 0 !important;
+    }
+
+    .event-slider .item {
+        padding: 5px;
+    }
+
+    .event-slider .item p {
+        font-size: 10px;
+        line-height: 10px;
+    }
+
+    .event-slider .item p.dateEvent {
+        font-size: 9px;
+    }
+
+    .latestUpdate h2 {
+        font-size: 22px;
+        line-height: 24px;
+    }
+
+    .careerWrap .event-slider .item:nth-child(2):after,
+    .careerWrap .event-slider .item:nth-child(2):before,
+    .careerTitle:after,
+    .womenpreneur:before,
+    .updateList .item:nth-child(2):after,
+    .updateList .item:nth-child(2):before,
+    .latestUpdate:before {
+        display: none;
+    }
+
+    .latestUpdate {
+        text-align: center;
+    }
+
+    .updateList {
+        margin: 10px 0px;
+    }
+
+    .updateList .item {
+        text-align: left;
+    }
+
+    .updateList .titleEvent {
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    .updateList p {
+        font-size: 10px;
+        line-height: 10px;
+    }
+
+    .womenpreneurList {
+        flex-direction: column;
+    }
+
+    .women-margin-mobile {
+        margin-left: -26px;
+        margin-right: -28px;
+    }
+
+    .womenpreneurList .inside {
+        display: flex;
+    }
+
+    .womenpreneurList .inside a {
+        width: 60%;
+    }
+
+    .padding-women-mobile-image {
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+
+    .womenpreneurList .inside a img {
+        width: 100%;
+    }
+
+    .womenpreneurList .inside desc {
+        width: 40%;
+        text-align: left;
+    }
+
+    .womenpreneur {
+        text-align: center;
+    }
+
+
+    .desc {
+        padding: 5px 15px;
+        flex-basis: 50%;
+        text-align: left;
+    }
+
+    .womenpreneurList .titleEvent {
+        font-size: 16px;
+        line-height: 18px;
+        font-weight: 400;
+    }
+
+    .womenpreneurList p {
+        font-size: 10px;
+        line-height: 10px;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    .logoFooter {
+        margin-bottom: 15px;
+    }
+
+    .womenpreneur-slider {
+        background: #D9D9D9;
+        padding-left: 10px;
+    }
+
+    .women-item-slider .body {
+        text-align: left;
+        font-family: 'Baskerville';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #000000;
+        margin: 0;
+    }
+
+    .women-item-slider .title {
+
+        text-align: left;
+        font-family: 'Josefin Sans';
+        font-style: italic;
+        font-weight: 600;
+        font-size: 10px;
+        line-height: 10px;
+        color: #D2232A;
+        margin: 5px 0 0 0;
+    }
+
+    .fashion .updateList {
+        padding: 10px 10px;
+    }
+
+    .fashion {
+        padding: 0;
+    }
+
+    .storyMovie {
+        padding: 0;
+    }
+
+    .storyMovieText {
+        padding: 0;
+        height: 100%;
+    }
+
+    .storyMovieText .flex {
+        padding: 0;
+    }
+
+    .storyMovieText .date {
+        font-size: 10px;
+        line-height: 10px;
+        margin-top: 10px;
+    }
+
+    .storyMovieText .nameActris {
+        font-size: 14px;
+        line-height: 16px;
+        margin-top: 5px;
+        margin-bottom: 22px;
+        font-family: Libre Baskerville;
+    }
+
+    .storyMovieText .storyActris {
+        font-size: 10px;
+        line-height: 10px;
+        font-weight: 400;
+    }
+
+    .storyMovieText .reader {
+        font-size: 10px;
+        line-height: 10px;
+        background: #D2232A;
+        color: #fff;
+        width: 73px;
+        font-style: italic;
+        margin: 0 auto;
+        padding: 8px 0px;
+        margin-top: 22px;
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+
+    .seratus-seratus {
+        width: 100%;
+        height: 100%;
+    }
+
+    .bg-white {
+        background: #FFFFFF;
+    }
+
+    .videoMovie {
+        padding: 0;
+    }
+
+    .videoMovie .womenpreneurList .inside {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .no-margin {
+        margin: 0;
+    }
+
+    .video-slider {
+        padding-left: 10px;
+        margin-top: 14px;
+    }
+
+    .video-item-slider .title {
+
+        font-family: 'Baskerville';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #000000;
+        text-align: left;
+
+    }
+}
+
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .carousel-caption h5 {
+        font-size: 14px;
+    }
+
+    .carousel-caption {
+        padding-left: .35rem;
+        padding-right: .35rem;
+    }
+
+    .carousel-caption p {
+        margin: 0;
+    }
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    .family {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    .logoMobile {
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+    }
+
+    .navbar {
+        margin-bottom: 20px;
+    }
+
+    .navbar .container-fluid {
+        /* flex-direction:	row-reverse; */
+        display: block;
+        text-align: center;
+    }
+
+    .navbar-brand img {
+        width: 160px;
+    }
+
+    /* .dropdown:hover .dropdown-menu {
+        display: unset;
+        margin-top: 0;
+    } */
+    .navbar-collapse {
+        position: fixed;
+        top: 0px;
+        left: 0;
+        padding: 35px 15px 15px 15px;
+        width: 70%;
+        height: 100%;
+        z-index: 20;
+        margin-top: 0px;
+        background: #fff;
+        box-shadow: 0px 5px 5px #000;
+    }
+
+    .navbar-collapse.collapsing {
+        left: -70%;
+        transition: height 0s ease;
+    }
+
+    .navbar-collapse.show {
+        left: 0;
+        transition: left 300ms ease-in-out;
+    }
+
+    .navbar-toggler.collapsed ~ .navbar-collapse {
+        transition: left 500ms ease-in-out;
+    }
+
+    .title-section {
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    footer .flex {
+        flex-direction: column;
+    }
+
+    .navbar-nav {
+        margin-top: 60px;
+    }
+
+    .navbar-nav li {
+        border-bottom: 1px solid #A4A4A4;
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+        position: relative;
+    }
+
+    /* .navbar-nav li.dropdown{
+        padding-bottom:0px;
+    } */
+    .dropdown-toggle::after {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .navbar-nav .dropdown-menu {
+        border: 0;
+        border-radius: 0;
+        margin-top: 10px;
+        padding-bottom: 10px;
+        border-top: 1px solid #A4A4A4;
+    }
+
+    .navbar-nav .dropdown-menu li {
+        border: 0;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    /* .mostView-wrap, */
+    #homeSlider {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
+    .footer-sosmed {
+        padding: 0 15px;
+
+    }
+
+    .subscriber.flex,
+    .footer-sosmed.flex {
+        flex-direction: row;
+    }
+
+    .bottom-nav {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .bottom-nav div {
+        padding: 0;
+    }
+
+    .bottom-nav ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    .bottom-nav li {
+        margin-bottom: 0;
+        margin-left: 10px;
+        margin-right: 10px;
+        display: inline-block;
+        font-size: 14px;
+    }
+
+    .logo-partner br {
+        display: none;
+    }
+
+    .logo-partner img {
+        margin-top: 0;
+    }
+
+    .copyright {
+        margin-top: 20px;
+        font-size: 14px;
+        padding: 0 45px;
+        line-height: 20px;
+    }
+
+}
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    ...
+}
+
+/* // X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+    ...
+}
