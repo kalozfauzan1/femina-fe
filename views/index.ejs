@@ -1,1101 +1,797 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>FEMINA</title>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600;700&display=swap"
-          rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@300;400;700&display=swap"
-          rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" rel="stylesheet" type="text/css"/>
-    <link href="/stylesheets/slick-theme.css" rel="stylesheet" type="text/css"/>
-    <link href="/stylesheets/grid.css" rel="stylesheet" type="text/css"/>
-    <link href="/stylesheets/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-    <link href="/stylesheets/style.css" rel="stylesheet"/>
-</head>
-<body>
-<h1>Indonesia News Updates</h1>
-<!-- Navbar -->
-<nav class="navbar navbar-expand-lg">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-            <img src="/images/assets/Logo-Femina.png" alt="Logo Femina"/>
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <img src="/images/assets/bar.png" alt=""/>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <div class="logoMobile">
-                <img src="/images/assets/arr.png" class="arrMobile" alt="Logo Femina"/>
-                <img src="/images/assets/Logo-Femina.png" class="logoMobile" alt="Logo Femina"/>
-            </div>
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">HOME</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                       aria-expanded="false">OUR LIFE</a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">ENTERTAINMENT</a></li>
-                        <li><a class="dropdown-item" href="#">CAREER</a></li>
-                        <li><a class="dropdown-item" href="#">WOMENPRENEUR</a></li>
-                        <li><a class="dropdown-item" href="#">MONEY</a></li>
-                        <li><a class="dropdown-item" href="#">SEX & HEALTH</a></li>
-                        <li><a class="dropdown-item" href="#">HEALTH</a></li>
-                        <li><a class="dropdown-item" href="#">PROFILE</a></li>
-                        <li><a class="dropdown-item" href="#">POLLING & QUIZ</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                       aria-expanded="false">ENTERTAINMENT</a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                       aria-expanded="false">LIVING</a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="">FASHION</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="">BEAUTY</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="">FOOD</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="">COMMUNITY</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="">PROMOTIONS</a>
-                </li>
-
-            </ul>
-        </div>
+<div id="homeSlider" class="carousel slide" data-bs-ride="true">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#homeSlider" data-bs-slide-to="0" class="active" aria-current="true"
+                aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#homeSlider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#homeSlider" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
-</nav>
-
-<div class="container">
-
-    <!-- Carousel -->
-    <div id="homeSlider" class="carousel slide" data-bs-ride="true">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#homeSlider" data-bs-slide-to="0" class="active" aria-current="true"
-                    aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#homeSlider" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#homeSlider" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="/images/content/CarouselBanner1.png" class="img-resposive" alt="...">
-                <div class="carousel-caption">
-                    <div class="carousel-category">Fashion</div>
-                    <h5>DUH! Baju Lebaran Kena Noda Makanan!</h5>
-                    <p>Baju baru dan makanan enak memang menjadi esensi hari raya, tapi juga kombinasi yang
-                        sering membuat was-was. Jangan khawatir! Ini tip membersihkan noda makanan
-                        berminyak di baju!</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="/images/content/CarouselBanner1.png" class="img-resposive" alt="...">
-                <div class="carousel-caption">
-                    <div class="carousel-category">Fashion</div>
-                    <h5>Second slide label</h5>
-                    <p>Baju baru dan makanan enak memang menjadi esensi hari raya, tapi juga kombinasi yang
-                        sering membuat was-was. Jangan khawatir! Ini tip membersihkan noda makanan
-                        berminyak di baju!</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="/images/content/CarouselBanner1.png" class="img-resposive" alt="...">
-                <div class="carousel-caption">
-                    <div class="carousel-category">Fashion</div>
-                    <h5>Third slide label</h5>
-                    <p>Baju baru dan makanan enak memang menjadi esensi hari raya, tapi juga kombinasi yang
-                        sering membuat was-was. Jangan khawatir! Ini tip membersihkan noda makanan
-                        berminyak di baju!</p>
-                </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="/images/content/CarouselBanner1.png" class="img-resposive" alt="...">
+            <div class="carousel-caption">
+                <div class="carousel-category">Fashion</div>
+                <h5>DUH! Baju Lebaran Kena Noda Makanan!</h5>
+                <p>Baju baru dan makanan enak memang menjadi esensi hari raya, tapi juga kombinasi yang
+                    sering membuat was-was. Jangan khawatir! Ini tip membersihkan noda makanan
+                    berminyak di baju!</p>
             </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#homeSlider" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#homeSlider" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
+        <div class="carousel-item">
+            <img src="/images/content/CarouselBanner1.png" class="img-resposive" alt="...">
+            <div class="carousel-caption">
+                <div class="carousel-category">Fashion</div>
+                <h5>Second slide label</h5>
+                <p>Baju baru dan makanan enak memang menjadi esensi hari raya, tapi juga kombinasi yang
+                    sering membuat was-was. Jangan khawatir! Ini tip membersihkan noda makanan
+                    berminyak di baju!</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="/images/content/CarouselBanner1.png" class="img-resposive" alt="...">
+            <div class="carousel-caption">
+                <div class="carousel-category">Fashion</div>
+                <h5>Third slide label</h5>
+                <p>Baju baru dan makanan enak memang menjadi esensi hari raya, tapi juga kombinasi yang
+                    sering membuat was-was. Jangan khawatir! Ini tip membersihkan noda makanan
+                    berminyak di baju!</p>
+            </div>
+        </div>
     </div>
-    <!-- End Carousel -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#homeSlider" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#homeSlider" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+<!-- End Carousel -->
 
-    <div class="bilboardAds">
-        <a href="">
-            <img src="/images/content/BillboardAds970x250.png" alt=""/>
-        </a>
-    </div>
+<div class="bilboardAds">
+    <a href="">
+        <img src="/images/content/BillboardAds970x250.png" alt=""/>
+    </a>
+</div>
 
-    <!-- Most View -->
-    <div id="mostView" class="mostView">
-        <h2 class="title-section">Most Viewed</h2>
-        <div class="mostView-wrap">
-            <div class="mostView-slider">
-                <div class="item">
-                    <a href=""><img src="/images/content/view01.png" class="img-wide" alt=""/></a>
-                    <div class="mostView-desc">
-                        <span class="viewCat">Beauty Tips</span>
-                        <a href="">4 Tip Agar Aroma Parfum Lebih Awet!</a>
-                    </div>
+<!-- Most View -->
+<div id="mostView" class="mostView">
+    <h2 class="title-section">Most Viewed</h2>
+    <div class="mostView-wrap">
+        <div class="mostView-slider">
+            <div class="item">
+                <a href=""><img src="/images/content/view01.png" class="img-wide" alt=""/></a>
+                <div class="mostView-desc">
+                    <span class="viewCat">Beauty Tips</span>
+                    <a href="">4 Tip Agar Aroma Parfum Lebih Awet!</a>
                 </div>
-                <div class="item">
-                    <a href=""><img src="/images/content/view02.png" class="img-wide" alt=""/></a>
-                    <div class="mostView-desc">
-                        <span class="viewCat">Beauty Tips</span>
-                        <a href="">Tren Tas Kerja 2022</a>
-                    </div>
+            </div>
+            <div class="item">
+                <a href=""><img src="/images/content/view02.png" class="img-wide" alt=""/></a>
+                <div class="mostView-desc">
+                    <span class="viewCat">Beauty Tips</span>
+                    <a href="">Tren Tas Kerja 2022</a>
                 </div>
-                <div class="item">
-                    <a href=""><img src="/images/content/view03.png" class="img-wide" alt=""/></a>
-                    <div class="mostView-desc">
-                        <span class="viewCat">Beauty Tips</span>
-                        <a href="">Ada Apa Dengan Shea Butter?</a>
-                    </div>
+            </div>
+            <div class="item">
+                <a href=""><img src="/images/content/view03.png" class="img-wide" alt=""/></a>
+                <div class="mostView-desc">
+                    <span class="viewCat">Beauty Tips</span>
+                    <a href="">Ada Apa Dengan Shea Butter?</a>
                 </div>
-                <div class="item">
-                    <a href=""><img src="/images/content/view01.png" class="img-wide" alt=""/></a>
-                    <div class="mostView-desc">
-                        <span class="viewCat">Beauty Tips</span>
-                        <a href="">4 Tip Agar Aroma Parfum Lebih Awet!</a>
-                    </div>
+            </div>
+            <div class="item">
+                <a href=""><img src="/images/content/view01.png" class="img-wide" alt=""/></a>
+                <div class="mostView-desc">
+                    <span class="viewCat">Beauty Tips</span>
+                    <a href="">4 Tip Agar Aroma Parfum Lebih Awet!</a>
                 </div>
-                <div class="item">
-                    <a href=""><img src="/images/content/view02.png" class="img-wide" alt=""/></a>
-                    <div class="mostView-desc">
-                        <span class="viewCat">Beauty Tips</span>
-                        <a href="">Tren Tas Kerja 2022</a>
-                    </div>
+            </div>
+            <div class="item">
+                <a href=""><img src="/images/content/view02.png" class="img-wide" alt=""/></a>
+                <div class="mostView-desc">
+                    <span class="viewCat">Beauty Tips</span>
+                    <a href="">Tren Tas Kerja 2022</a>
                 </div>
             </div>
         </div>
     </div>
+</div>
 
-    <div class="bilboardAds mobile mobileAds">
-        <a href="">
-            <img src="/images/content/Medium Rectangle Ads 300x250 5.png" alt=""/>
-        </a>
-    </div>
+<div class="bilboardAds mobile mobileAds">
+    <a href="">
+        <img src="/images/content/Medium Rectangle Ads 300x250 5.png" alt=""/>
+    </a>
+</div>
 
-    <!-- Event -->
-    <div id="event" class="event">
-        <h2 class="title-section">Event</h2>
-        <div id="eventSlide" class="event-slider">
-            <div class="item col">
-                <a href=""><img src="/images/content/Image Kunci Sukses 2.png" class="img-wide"/></a>
-                <span class="viewCat">Beauty Tips</span>
-                <p><a href="" class="titleEvent">Kunci Sukses</a></p>
-                <p>Lorem ipsum dolor sit amet, consectetuer
-                    adipiscing elit. Aenean commodo ligula eget
-                    dolor. Aenean massa. </p>
-                <p class="dateEvent"><img src="/images/assets/Date Icon 5.png"/> 27 Juni 2022 | 02:00 PM</p>
-            </div>
-            <div class="item col">
-                <a href=""><img src="/images/content/Image Studi Terkini Tentang Empati 2.png" class="img-wide"/></a>
-                <span class="viewCat">Beauty Tips</span>
-                <p><a href="" class="titleEvent">Studi Terkini Tentang Empati</a></p>
-                <p>Lorem ipsum dolor sit amet, consectetuer
-                    adipiscing elit. Aenean commodo ligula eget
-                    dolor. Aenean massa. </p>
-                <p class="dateEvent"><img src="/images/assets/Date Icon 5.png"/> 27 Juni 2022 | 02:00 PM</p>
-            </div>
-            <div class="item col">
-                <a href=""><img src="/images/content/Image Nyaman di Tempat Kerja 2.png" class="img-wide"/></a>
-                <span class="viewCat">Beauty Tips</span>
-                <p><a href="" class="titleEvent">Nyaman di Tempat Kerja</a></p>
-                <p>Lorem ipsum dolor sit amet, consectetuer
-                    adipiscing elit. Aenean commodo ligula eget
-                    dolor. Aenean massa. </p>
-                <p class="dateEvent"><img src="/images/assets/Date Icon 5.png"/> 27 Juni 2022 | 02:00 PM</p>
-            </div>
+<!-- Event -->
+<div id="event" class="event">
+    <h2 class="title-section">Event</h2>
+    <div id="eventSlide" class="event-slider">
+        <div class="item col">
+            <a href=""><img src="/images/content/Image Kunci Sukses 2.png" class="img-wide"/></a>
+            <span class="viewCat">Beauty Tips</span>
+            <p><a href="" class="titleEvent">Kunci Sukses</a></p>
+            <p>Lorem ipsum dolor sit amet, consectetuer
+                adipiscing elit. Aenean commodo ligula eget
+                dolor. Aenean massa. </p>
+            <p class="dateEvent"><img src="/images/assets/Date Icon 5.png"/> 27 Juni 2022 | 02:00 PM</p>
+        </div>
+        <div class="item col">
+            <a href=""><img src="/images/content/Image Studi Terkini Tentang Empati 2.png" class="img-wide"/></a>
+            <span class="viewCat">Beauty Tips</span>
+            <p><a href="" class="titleEvent">Studi Terkini Tentang Empati</a></p>
+            <p>Lorem ipsum dolor sit amet, consectetuer
+                adipiscing elit. Aenean commodo ligula eget
+                dolor. Aenean massa. </p>
+            <p class="dateEvent"><img src="/images/assets/Date Icon 5.png"/> 27 Juni 2022 | 02:00 PM</p>
+        </div>
+        <div class="item col">
+            <a href=""><img src="/images/content/Image Nyaman di Tempat Kerja 2.png" class="img-wide"/></a>
+            <span class="viewCat">Beauty Tips</span>
+            <p><a href="" class="titleEvent">Nyaman di Tempat Kerja</a></p>
+            <p>Lorem ipsum dolor sit amet, consectetuer
+                adipiscing elit. Aenean commodo ligula eget
+                dolor. Aenean massa. </p>
+            <p class="dateEvent"><img src="/images/assets/Date Icon 5.png"/> 27 Juni 2022 | 02:00 PM</p>
         </div>
     </div>
+</div>
 
-    <div class="bilboardAds">
-        <a href="">
-            <img src="/images/content/Leaderboard Ads 729x90 2.png" alt=""/>
-        </a>
-    </div>
+<div class="bilboardAds">
+    <a href="">
+        <img src="/images/content/Leaderboard Ads 729x90 2.png" alt=""/>
+    </a>
+</div>
 
-    <!-- Latest Update -->
-    <div id="latestUpdate" class="latestUpdate">
-        <h2 class="title-section">Latest Update</h2>
+<!-- Latest Update -->
+<div id="latestUpdate" class="latestUpdate">
+    <h2 class="title-section">Latest Update</h2>
 
-        <div class="updateList flex">
-            <div class="col item">
-                <a href=""><img src="/images/content/9 3.png" class="img-wide"/></a>
-                <span class="viewCat">Trending</span>
-                <p><a href="" class="titleEvent">Padu Padan Baju Lebaran</a></p>
-                <p>Pasangan ataupun anak laki-laki biasanya lebih suka warna netral seperti putin, biru, putih, abu, dan
-                    coklat. <a href="" class="readMore">Read More </a></p>
-            </div>
-            <div class="col item">
-                <a href=""><img src="/images/content/10 3.png" class="img-wide"/></a>
-                <span class="viewCat">Trending</span>
-                <p><a href="" class="titleEvent">Berbuka Dengan Yang Lebih Sehat</a></p>
-                <p>Air kelapa dan sedikit gula. Rendah kalori namun tetap memuaskan selera. <a href="" class="readMore">Read
-                        More </a></p>
-            </div>
-            <div class="col item">
-                <a href=""><img src="/images/content/11 4.png" class="img-wide"/></a>
-                <span class="viewCat">Trending</span>
-                <p><a href="" class="titleEvent">5 Tanda LDR Tidak Berjalan Baik</a></p>
-                <p>Ngobrol dengan pasangan terasa seperti ‘tugas’ daripada komunikasi inti. <a href="" class="readMore">Read
-                        More </a></p>
-            </div>
+    <div class="updateList flex">
+        <div class="col item">
+            <a href=""><img src="/images/content/9 3.png" class="img-wide"/></a>
+            <span class="viewCat">Trending</span>
+            <p><a href="" class="titleEvent">Padu Padan Baju Lebaran</a></p>
+            <p>Pasangan ataupun anak laki-laki biasanya lebih suka warna netral seperti putin, biru, putih, abu, dan
+                coklat. <a href="" class="readMore">Read More </a></p>
+        </div>
+        <div class="col item">
+            <a href=""><img src="/images/content/10 3.png" class="img-wide"/></a>
+            <span class="viewCat">Trending</span>
+            <p><a href="" class="titleEvent">Berbuka Dengan Yang Lebih Sehat</a></p>
+            <p>Air kelapa dan sedikit gula. Rendah kalori namun tetap memuaskan selera. <a href="" class="readMore">Read
+                    More </a></p>
+        </div>
+        <div class="col item">
+            <a href=""><img src="/images/content/11 4.png" class="img-wide"/></a>
+            <span class="viewCat">Trending</span>
+            <p><a href="" class="titleEvent">5 Tanda LDR Tidak Berjalan Baik</a></p>
+            <p>Ngobrol dengan pasangan terasa seperti ‘tugas’ daripada komunikasi inti. <a href="" class="readMore">Read
+                    More </a></p>
         </div>
     </div>
+</div>
 
-    <div class="bilboardAds">
-        <a href="">
-            <img src="/images/content/Leaderboard Ads 729x90 2.png" alt=""/>
-        </a>
+<div class="bilboardAds">
+    <a href="">
+        <img src="/images/content/Leaderboard Ads 729x90 2.png" alt=""/>
+    </a>
+</div>
+
+<!-- Career -->
+<div id="career" class="careerWrap">
+    <div class="careerTitle">
+        <h2 class="title-section">Career</h2>
     </div>
-
-    <!-- Career -->
-    <div id="career" class="careerWrap">
-        <div class="careerTitle">
-            <h2 class="title-section">Career</h2>
+    <div id="careerSlide" class="event-slider">
+        <div class="item col">
+            <a href=""><img src="/images/content/Image Kunci Sukses 2.png" class="img-wide"/></a>
+            <span class="viewCat">Beauty Tips</span>
+            <p><a href="" class="titleEvent">Kunci Sukses</a></p>
+            <p>Lorem ipsum dolor sit amet, consectetuer
+                adipiscing elit. Aenean commodo ligula eget
+                dolor. Aenean massa. </p>
+            <p class="dateEvent"><img src="/images/assets/Date Icon 5.png"/> 27 Juni 2022 | 02:00 PM</p>
         </div>
-        <div id="careerSlide" class="event-slider">
-            <div class="item col">
-                <a href=""><img src="/images/content/Image Kunci Sukses 2.png" class="img-wide"/></a>
-                <span class="viewCat">Beauty Tips</span>
-                <p><a href="" class="titleEvent">Kunci Sukses</a></p>
-                <p>Lorem ipsum dolor sit amet, consectetuer
-                    adipiscing elit. Aenean commodo ligula eget
-                    dolor. Aenean massa. </p>
-                <p class="dateEvent"><img src="/images/assets/Date Icon 5.png"/> 27 Juni 2022 | 02:00 PM</p>
-            </div>
-            <div class="item col">
-                <a href=""><img src="/images/content/Image Studi Terkini Tentang Empati 2.png" class="img-wide"/></a>
-                <span class="viewCat">Beauty Tips</span>
-                <p><a href="" class="titleEvent">Studi Terkini Tentang Empati</a></p>
-                <p>Lorem ipsum dolor sit amet, consectetuer
-                    adipiscing elit. Aenean commodo ligula eget
-                    dolor. Aenean massa. </p>
-                <p class="dateEvent"><img src="/images/assets/Date Icon 5.png"/> 27 Juni 2022 | 02:00 PM</p>
-            </div>
-            <div class="item col">
-                <a href=""><img src="/images/content/Image Nyaman di Tempat Kerja 2.png" class="img-wide"/></a>
-                <span class="viewCat">Beauty Tips</span>
-                <p><a href="" class="titleEvent">Nyaman di Tempat Kerja</a></p>
-                <p>Lorem ipsum dolor sit amet, consectetuer
-                    adipiscing elit. Aenean commodo ligula eget
-                    dolor. Aenean massa. </p>
-                <p class="dateEvent"><img src="/images/assets/Date Icon 5.png"/> 27 Juni 2022 | 02:00 PM</p>
-            </div>
+        <div class="item col">
+            <a href=""><img src="/images/content/Image Studi Terkini Tentang Empati 2.png" class="img-wide"/></a>
+            <span class="viewCat">Beauty Tips</span>
+            <p><a href="" class="titleEvent">Studi Terkini Tentang Empati</a></p>
+            <p>Lorem ipsum dolor sit amet, consectetuer
+                adipiscing elit. Aenean commodo ligula eget
+                dolor. Aenean massa. </p>
+            <p class="dateEvent"><img src="/images/assets/Date Icon 5.png"/> 27 Juni 2022 | 02:00 PM</p>
         </div>
-    </div>
-
-    <div class="bilboardAds">
-        <a href="">
-            <img src="/images/content/Leaderboard Ads 729x90 2.png" alt=""/>
-        </a>
-    </div>
-
-    <!-- Womenpreneur -->
-    <div id="womenpreneur" class="womenpreneur">
-        <h2 class="title-section">Womenpreneur</h2>
-        <div class="womenpreneurList flex women-margin-mobile">
-
-            <div class="col-xs-12 col-sm-8 item">
-                <div class="inside">
-                    <a href="" class="padding-women-mobile-image"><img
-                                src="/images/content/Image Jadi Satu Satunya Wanita di Kantor 7.png"
-                                class="img-wide"/></a>
-                    <div class="desc">
-                        <span class="viewCat">Celebrity News</span>
-                        <p><a href="" class="titleEvent">Setiap Peran Itu
-                                Berharga </a></p>
-                        <p>Biasanya perlu bertahun-tahun bagi <br/> seorang aktor hingga meraih pengakuan <br/> dalam
-                            bentuk piala <a href="" class="readMore">Read More</a></p>
-                    </div>
-                </div>
-            </div>
-            <div id="womenpreneurSlider" class="womenpreneur-slider mobile">
-                <div class="item col women-item-slider">
-                    <a href="">
-                        <img src="/images/content/Image Jadi Satu Satunya Wanita di Kantor 7.png" class="img-wide" alt=""/>
-                        <p class="title">Korean Corner</p>
-                        <p class="body">Setiap Peran Itu
-                            Berharga </p>
-                    </a>
-                </div>
-                <div class="item col women-item-slider">
-                    <a href="">
-                        <img src="/images/content/Image Jadi Satu Satunya Wanita di Kantor 7.png" class="img-wide" alt=""/>
-                        <p class="title">Reviews</p>
-                        <p class="body">Setiap Peran Itu
-                            Berharga </p>
-                    </a>
-                </div>
-                <div class="item col women-item-slider">
-                    <a href="">
-                        <img src="/images/content/Image Jadi Satu Satunya Wanita di Kantor 7.png" class="img-wide" alt=""/>
-                        <p class="title">Art & Culture</p>
-                        <p class="body">Kristen Stewart
-                            Nominasi Di OScar </p>
-                    </a>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-4 item desktop">
-                <div class="inside">
-                    <div class="col-8 marg">
-                        <div class="preneurThumb">
-                            <a href="">
-                                <img src="/images/content/13 9.png" class="img-wide" alt=""/>
-                                <span class="viewCat">Korean Corner</span>
-                                <p>Dr. Strange</p>
-                            </a>
-                        </div>
-                        <div class="preneurThumb">
-                            <a href="">
-                                <img src="/images/content/14 9.png" class="img-wide" alt=""/>
-                                <span class="viewCat">Korean Corner</span>
-                                <p>Serum dengan bahan aktif</p>
-                            </a>
-                        </div>
-                        <div class="preneurThumb">
-                            <a href="">
-                                <img src="/images/content/15 9.png" class="img-wide" alt=""/>
-                                <span class="viewCat">Art & Culture</span>
-                                <p>Kristen Stewart Nominasi Di Oscar</p>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
+        <div class="item col">
+            <a href=""><img src="/images/content/Image Nyaman di Tempat Kerja 2.png" class="img-wide"/></a>
+            <span class="viewCat">Beauty Tips</span>
+            <p><a href="" class="titleEvent">Nyaman di Tempat Kerja</a></p>
+            <p>Lorem ipsum dolor sit amet, consectetuer
+                adipiscing elit. Aenean commodo ligula eget
+                dolor. Aenean massa. </p>
+            <p class="dateEvent"><img src="/images/assets/Date Icon 5.png"/> 27 Juni 2022 | 02:00 PM</p>
         </div>
     </div>
+</div>
 
+<div class="bilboardAds">
+    <a href="">
+        <img src="/images/content/Leaderboard Ads 729x90 2.png" alt=""/>
+    </a>
+</div>
 
-    <div class="bilboardAds">
-        <a href="">
-            <img src="/images/content/Leaderboard Ads 729x90 2.png" alt=""/>
-        </a>
-    </div>
+<!-- Womenpreneur -->
+<div id="womenpreneur" class="womenpreneur">
+    <h2 class="title-section">Womenpreneur</h2>
+    <div class="womenpreneurList flex women-margin-mobile">
 
-    <!-- fashion and beauty -->
-
-    <div id="fashion" class="fashion">
-        <div class="careerTitle">
-            <h2 class="title-section">Fashion & Beauty</h2>
-        </div>
-        <div class="updateList flex">
-            <div class="col item">
-                <a href=""><img src="/images/content/9 3.png" class="img-wide"/></a>
-                <span class="viewCat">Trending</span>
-                <p><a href="" class="titleEvent">Padu Padan Baju Lebaran</a></p>
-                <p>Pasangan ataupun anak laki-laki biasanya lebih suka warna netral seperti putin, biru, putih, abu, dan
-                    coklat. <a href="" class="readMore">Read More </a></p>
-            </div>
-            <div class="col item">
-                <a href=""><img src="/images/content/10 3.png" class="img-wide"/></a>
-                <span class="viewCat">Trending</span>
-                <p><a href="" class="titleEvent">Berbuka Dengan Yang Lebih Sehat</a></p>
-                <p>Air kelapa dan sedikit gula. Rendah kalori namun tetap memuaskan selera. <a href="" class="readMore">Read
-                        More </a></p>
-            </div>
-            <div class="col item">
-                <a href=""><img src="/images/content/11 4.png" class="img-wide"/></a>
-                <span class="viewCat">Trending</span>
-                <p><a href="" class="titleEvent">5 Tanda LDR Tidak Berjalan Baik</a></p>
-                <p>Ngobrol dengan pasangan terasa seperti ‘tugas’ daripada komunikasi inti. <a href="" class="readMore">Read
-                        More </a></p>
-            </div>
-        </div>
-    </div>
-
-    <div class="bilboardAds">
-        <a href="">
-            <img src="/images/content/Medium Rectangle Ads 300x250 5.png" alt=""/>
-        </a>
-    </div>
-
-    <div id="storyMovie" class="storyMovie flex">
-        <div class="col-6">
-            <img class="seratus-seratus" src="/images/content/19 2.png" alt=""/>
-        </div>
-        <div class="col-6">
-            <div class="storyMovieText ">
-                <div class="flex">
-                    <div class="date">Maret - Juli 2022</div>
-                    <div class="nameActris">
-                        Putri Marino<br/>
-                        Sang Petualang Peran
-                    </div>
-                    <div class="storyActris">
-                        Apa kata pemeran Kinan di
-                        Web series Layangan Putus
-                        soal tanggung jawab
-                        sebagai wanita dan
-                        sebagai aktor?
-                    </div>
-                    <a href="" class="reader">Read more</a>
+        <div class="col-xs-12 col-sm-8 item">
+            <div class="inside">
+                <a href="" class="padding-women-mobile-image"><img
+                            src="/images/content/Image Jadi Satu Satunya Wanita di Kantor 7.png"
+                            class="img-wide"/></a>
+                <div class="desc">
+                    <span class="viewCat">Celebrity News</span>
+                    <p><a href="" class="titleEvent">Setiap Peran Itu
+                            Berharga </a></p>
+                    <p>Biasanya perlu bertahun-tahun bagi <br/> seorang aktor hingga meraih pengakuan <br/> dalam
+                        bentuk piala <a href="" class="readMore">Read More</a></p>
                 </div>
             </div>
         </div>
-    </div>
-
-    <div id="womenpreneur" class="womenpreneur">
-        <h2 class="title-section">Womenpreneur</h2>
-        <div class="womenpreneurList flex women-margin-mobile">
-
-            <div class="col-xs-12 col-sm-8 item">
-                <div class="inside">
-                    <a href="" class="padding-women-mobile-image"><img
-                                src="/images/content/Image Jadi Satu Satunya Wanita di Kantor 7.png"
-                                class="img-wide"/></a>
-                    <div class="desc">
-                        <span class="viewCat">Celebrity News</span>
-                        <p><a href="" class="titleEvent">Setiap Peran <br/>Itu Berharga</a></p>
-                        <p>Biasanya perlu bertahun-tahun bagi <br/> seorang aktor hingga meraih pengakuan <br/> dalam
-                            bentuk piala <a href="" class="readMore">Read More</a></p>
-                    </div>
-                </div>
+        <div id="womenpreneurSlider" class="womenpreneur-slider mobile">
+            <div class="item col women-item-slider">
+                <a href="">
+                    <img src="/images/content/Image Jadi Satu Satunya Wanita di Kantor 7.png" class="img-wide" alt=""/>
+                    <p class="title">Korean Corner</p>
+                    <p class="body">Setiap Peran Itu
+                        Berharga </p>
+                </a>
             </div>
-            <div id="womenpreneurSlider" class="womenpreneur-slider mobile">
-                <div class="item col women-item-slider">
-                    <a href="">
-                        <img src="/images/content/13 9.png" class="img-wide" alt=""/>
-                        <p class="title">Korean Corner</p>
-                        <p class="body">Setiap Peran Itu
-                            Berharga </p>
-                    </a>
-                </div>
-                <div class="item col women-item-slider">
-                    <a href="">
-                        <img src="/images/content/13 9.png" class="img-wide" alt=""/>
-                        <p class="title">Korean Corner</p>
-                        <p class="body">Setiap Peran Itu
-                            Berharga </p>
-                    </a>
-                </div>
-                <div class="item col women-item-slider">
-                    <a href="">
-                        <img src="/images/content/13 9.png" class="img-wide" alt=""/>
-                        <p class="title">Korean Corner</p>
-                        <p class="body">Setiap Peran Itu
-                            Berharga </p>
-                    </a>
-                </div>
+            <div class="item col women-item-slider">
+                <a href="">
+                    <img src="/images/content/Image Jadi Satu Satunya Wanita di Kantor 7.png" class="img-wide" alt=""/>
+                    <p class="title">Reviews</p>
+                    <p class="body">Setiap Peran Itu
+                        Berharga </p>
+                </a>
             </div>
-            <div class="col-xs-12 col-sm-4 item desktop">
-                <div class="inside">
-                    <div class="col-8 marg">
-                        <div class="preneurThumb">
-                            <a href="">
-                                <img src="/images/content/13 9.png" class="img-wide" alt=""/>
-                                <span class="viewCat">Korean Corner</span>
-                                <p>Dr. Strange</p>
-                            </a>
-                        </div>
-                        <div class="preneurThumb">
-                            <a href="">
-                                <img src="/images/content/14 9.png" class="img-wide" alt=""/>
-                                <span class="viewCat">Korean Corner</span>
-                                <p>Serum dengan bahan aktif</p>
-                            </a>
-                        </div>
-                        <div class="preneurThumb">
-                            <a href="">
-                                <img src="/images/content/15 9.png" class="img-wide" alt=""/>
-                                <span class="viewCat">Art & Culture</span>
-                                <p>Kristen Stewart Nominasi Di Oscar</p>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+            <div class="item col women-item-slider">
+                <a href="">
+                    <img src="/images/content/Image Jadi Satu Satunya Wanita di Kantor 7.png" class="img-wide" alt=""/>
+                    <p class="title">Art & Culture</p>
+                    <p class="body">Kristen Stewart
+                        Nominasi Di OScar </p>
+                </a>
             </div>
-
         </div>
-    </div>
-    <!-- <div class="womenpreneur">
-        <h2 class="title-section">Femina Women</h2>
-        <div class="womenpreneurList flex">
-
-            <div class="col-8 item">
-                <div class="inside">
-                    <a href=""><img src="/images/content/Image Jadi Satu Satunya Wanita di Kantor 7.png" class="img-wide"></a>
-                    <div class="desc">
-                        <span class="viewCat">Femina Women</span>
-                        <p><a href="" class="titleEvent">Kate Middleton</a></p>
-                        <p>Tas menjadi aksesori penting penunjang<br/>
-                            karier. Ini 4 jenis tas yang Anda<br/>
-                            butuhkan! Tas menjadi aksesori penting<br/>
-                            penunjang karier. Ini 4 jenis tas yang<br/>
-                            Anda butuhkan! <a href="" class="readMore">Read More</a></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-4 item">
-                <div class="inside">
-                    <div class="col-8 marg">
-                        <div class="preneurThumb">
-                            <a href="">
-                                <img src="/images/content/13 9.png" class="img-wide" alt="">
-                                <span class="viewCat">Femina Women</span>
-                                <p>Ana Sofa Yuking</p>
-                            </a>
-                        </div>
-                        <div class="preneurThumb">
-                            <a href="">
-                                <img src="/images/content/14 9.png" class="img-wide" alt="">
-                                <span class="viewCat">Femina Women</span>
-                                <p>Kim Pangestu</p>
-                            </a>
-                        </div>
-                        <div class="preneurThumb">
-                            <a href="">
-                                <img src="/images/content/15 9.png" class="img-wide" alt="">
-                                <span class="viewCat">Femina Women</span>
-                                <p>Ada apa dengan Shea Butter?</p>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>  -->
-
-    <div id="career" class="careerWrap family">
-        <div class="careerTitle">
-            <h2 class="title-section">Keluarga <span>oleh</span> <img
-                        src="/images/content/ayahbunda-removebg-preview 1.png"></h2>
-        </div>
-        <div class="event-slider slick-initialized slick-slider">
-            <div class="slick-list draggable">
-                <div class="slick-track" style="opacity: 1; width: 1278px; transform: translate3d(0px, 0px, 0px);">
-                    <div class="item col slick-slide slick-current slick-active" data-slick-index="0"
-                         aria-hidden="false" tabindex="0" style="width: 406px;">
-                        <a href="" tabindex="0"><img src="/images/content/Image Kunci Sukses 2.png"
-                                                     class="img-wide"></a>
-                        <span class="viewCat">Beauty Tips</span>
-                        <p><a href="" class="titleEvent" tabindex="0">Kunci Sukses</a></p>
-                        <p>Lorem ipsum dolor sit amet, consectetuer
-                            adipiscing elit. Aenean commodo ligula eget
-                            dolor. Aenean massa. </p>
-                        <p class="dateEvent"><img src="/images/assets/Date Icon 5.png"> 27 Juni 2022 | 02:00 PM</p>
-                    </div>
-                    <div class="item col slick-slide slick-active" data-slick-index="1" aria-hidden="false" tabindex="0"
-                         style="width: 406px;">
-                        <a href="" tabindex="0"><img src="/images/content/Image Studi Terkini Tentang Empati 2.png"
-                                                     class="img-wide"></a>
-                        <span class="viewCat">Beauty Tips</span>
-                        <p><a href="" class="titleEvent" tabindex="0">Studi Terkini Tentang Empati</a></p>
-                        <p>Lorem ipsum dolor sit amet, consectetuer
-                            adipiscing elit. Aenean commodo ligula eget
-                            dolor. Aenean massa. </p>
-                        <p class="dateEvent"><img src="/images/assets/Date Icon 5.png"> 27 Juni 2022 | 02:00 PM</p>
-                    </div>
-                    <div class="item col slick-slide slick-active" data-slick-index="2" aria-hidden="false" tabindex="0"
-                         style="width: 406px;">
-                        <a href="" tabindex="0"><img src="/images/content/Image Nyaman di Tempat Kerja 2.png"
-                                                     class="img-wide"></a>
-                        <span class="viewCat">Beauty Tips</span>
-                        <p><a href="" class="titleEvent" tabindex="0">Nyaman di Tempat Kerja</a></p>
-                        <p>Lorem ipsum dolor sit amet, consectetuer
-                            adipiscing elit. Aenean commodo ligula eget
-                            dolor. Aenean massa. </p>
-                        <p class="dateEvent"><img src="/images/assets/Date Icon 5.png"> 27 Juni 2022 | 02:00 PM</p>
-                    </div>
-                </div>
-            </div>
-
-
-        </div>
-    </div>
-
-    <div class="womenpreneur videoMovie bg-white">
-        <div class="careerTitle">
-            <h2 class="title-section bg-white">Video</h2>
-        </div>
-        <div class="womenpreneurList flex">
-
-            <div class="col-md-9 col-xs-12 item">
-                <div class="inside">
-                    <div class="videoPlay">
-                        <img src="/images/content/Image Article Banner 6.png" class="img-wide">
-                        <img src="/images/content/play button orange 2.png" class="playBtn"/>
-                    </div>
-                    <div class="desc">
-                        <p class="no-margin"><a href="" class="titleEvent">Blake Lively</a></p>
-                        <p class="no-margin">Tas menjadi aksesori penting penunjang karier. Ini 4 <br/>
-                            jenis tas yang Anda butuhkan! <br/>
-                            Tas menjadi aksesori penting penunjang karier. Ini 4<br/>
-                            jenis tas yang Anda butuhkan! </p>
-                    </div>
-                </div>
-            </div>
-            <div id="videoSlider" class="video-slider mobile">
-                <div class="item col video-item-slider">
-                    <a href="">
-                        <img src="/images/content/13 9.png" class="img-wide" alt=""/>
-                        <p class="title">Korean Corner</p>
-                    </a>
-                </div>
-                <div class="item col video-item-slider">
-                    <a href="">
-                        <img src="/images/content/13 9.png" class="img-wide" alt=""/>
-                        <p class="title">Korean Corner</p>
-                    </a>
-                </div>
-                <div class="item col video-item-slider">
-                    <a href="">
-                        <img src="/images/content/13 9.png" class="img-wide" alt=""/>
-                        <p class="title">Korean Corner</p>
-                    </a>
-                </div>
-            </div>
-            <div class="col-md-3 col-xs-12 item desktop">
-                <div class="inside">
+        <div class="col-xs-12 col-sm-4 item desktop">
+            <div class="inside">
+                <div class="col-8 marg">
                     <div class="preneurThumb">
                         <a href="">
-                            <img src="/images/content/Image Kunci Sukses 9.png" class="img-wide" alt="">
-                            <p>The Cast Elvis</p>
+                            <img src="/images/content/13 9.png" class="img-wide" alt=""/>
+                            <span class="viewCat">Korean Corner</span>
+                            <p>Dr. Strange</p>
                         </a>
                     </div>
                     <div class="preneurThumb">
                         <a href="">
-                            <img src="/images/content/Image Kesehatan Mental Setelah Covid 6.png" class="img-wide"
-                                 alt="">
-                            <p>Gabriel Union</p>
+                            <img src="/images/content/14 9.png" class="img-wide" alt=""/>
+                            <span class="viewCat">Korean Corner</span>
+                            <p>Serum dengan bahan aktif</p>
                         </a>
                     </div>
                     <div class="preneurThumb">
                         <a href="">
-                            <img src="/images/content/Image Kunci Sukses 9.png" class="img-wide" alt="">
-                            <p>Sydney Sweeney</p>
+                            <img src="/images/content/15 9.png" class="img-wide" alt=""/>
+                            <span class="viewCat">Art & Culture</span>
+                            <p>Kristen Stewart Nominasi Di Oscar</p>
                         </a>
                     </div>
                 </div>
             </div>
-
-        </div>
-    </div>
-
-    <div class="bilboardAds">
-        <a href="">
-            <img src="/images/content/Leaderboard Ads 729x90 2.png" alt=""/>
-        </a>
-    </div>
-
-    <div class="latestUpdate food">
-        <div class="careerTitle">
-            <h2 class="title-section">Food</h2>
         </div>
 
-        <div class="updateList flex">
-            <div class="col item">
-                <a href=""><img src="/images/content/9 3.png" class="img-wide"></a>
-                <span class="viewCat">Trending</span>
-                <p><a href="" class="titleEvent">Padu Padan Baju Lebaran</a></p>
-                <p>Pasangan ataupun anak laki-laki biasanya lebih suka warna netral seperti putin, biru, putih, abu, dan
-                    coklat. <a href="" class="readMore">Read More </a></p>
-            </div>
-            <div class="col item">
-                <a href=""><img src="/images/content/10 3.png" class="img-wide"></a>
-                <span class="viewCat">Trending</span>
-                <p><a href="" class="titleEvent">Berbuka Dengan Yang Lebih Sehat</a></p>
-                <p>Air kelapa dan sedikit gula. Rendah kalori namun tetap memuaskan selera. <a href="" class="readMore">Read
-                        More </a></p>
-            </div>
-            <div class="col item">
-                <a href=""><img src="/images/content/11 4.png" class="img-wide"></a>
-                <span class="viewCat">Trending</span>
-                <p><a href="" class="titleEvent">5 Tanda LDR Tidak Berjalan Baik</a></p>
-                <p>Ngobrol dengan pasangan terasa seperti ‘tugas’ daripada komunikasi inti. <a href="" class="readMore">Read
-                        More </a></p>
+    </div>
+</div>
+
+
+<div class="bilboardAds">
+    <a href="">
+        <img src="/images/content/Leaderboard Ads 729x90 2.png" alt=""/>
+    </a>
+</div>
+
+<!-- fashion and beauty -->
+
+<div id="fashion" class="fashion">
+    <div class="careerTitle">
+        <h2 class="title-section">Fashion & Beauty</h2>
+    </div>
+    <div class="updateList flex">
+        <div class="col item">
+            <a href=""><img src="/images/content/9 3.png" class="img-wide"/></a>
+            <span class="viewCat">Trending</span>
+            <p><a href="" class="titleEvent">Padu Padan Baju Lebaran</a></p>
+            <p>Pasangan ataupun anak laki-laki biasanya lebih suka warna netral seperti putin, biru, putih, abu, dan
+                coklat. <a href="" class="readMore">Read More </a></p>
+        </div>
+        <div class="col item">
+            <a href=""><img src="/images/content/10 3.png" class="img-wide"/></a>
+            <span class="viewCat">Trending</span>
+            <p><a href="" class="titleEvent">Berbuka Dengan Yang Lebih Sehat</a></p>
+            <p>Air kelapa dan sedikit gula. Rendah kalori namun tetap memuaskan selera. <a href="" class="readMore">Read
+                    More </a></p>
+        </div>
+        <div class="col item">
+            <a href=""><img src="/images/content/11 4.png" class="img-wide"/></a>
+            <span class="viewCat">Trending</span>
+            <p><a href="" class="titleEvent">5 Tanda LDR Tidak Berjalan Baik</a></p>
+            <p>Ngobrol dengan pasangan terasa seperti ‘tugas’ daripada komunikasi inti. <a href="" class="readMore">Read
+                    More </a></p>
+        </div>
+    </div>
+</div>
+
+<div class="bilboardAds">
+    <a href="">
+        <img src="/images/content/Medium Rectangle Ads 300x250 5.png" alt=""/>
+    </a>
+</div>
+
+<div id="storyMovie" class="storyMovie flex">
+    <div class="col-6">
+        <img class="seratus-seratus" src="/images/content/19 2.png" alt=""/>
+    </div>
+    <div class="col-6">
+        <div class="storyMovieText ">
+            <div class="flex">
+                <div class="date">Maret - Juli 2022</div>
+                <div class="nameActris">
+                    Putri Marino<br/>
+                    Sang Petualang Peran
+                </div>
+                <div class="storyActris">
+                    Apa kata pemeran Kinan di
+                    Web series Layangan Putus
+                    soal tanggung jawab
+                    sebagai wanita dan
+                    sebagai aktor?
+                </div>
+                <a href="" class="reader">Read more</a>
             </div>
         </div>
     </div>
+</div>
 
-    <div class="latestUpdate food">
-        <div class="careerTitle">
-            <h2 class="title-section">Lifestyle</h2>
-        </div>
+<div id="womenpreneur" class="womenpreneur">
+    <h2 class="title-section">Womenpreneur</h2>
+    <div class="womenpreneurList flex women-margin-mobile">
 
-        <div class="updateList flex">
-            <div class="col item">
-                <a href=""><img src="/images/content/9 3.png" class="img-wide"></a>
-                <span class="viewCat">Trending</span>
-                <p><a href="" class="titleEvent">Padu Padan Baju Lebaran</a></p>
-                <p>Pasangan ataupun anak laki-laki biasanya lebih suka warna netral seperti putin, biru, putih, abu, dan
-                    coklat. <a href="" class="readMore">Read More </a></p>
-            </div>
-            <div class="col item">
-                <a href=""><img src="/images/content/10 3.png" class="img-wide"></a>
-                <span class="viewCat">Trending</span>
-                <p><a href="" class="titleEvent">Berbuka Dengan Yang Lebih Sehat</a></p>
-                <p>Air kelapa dan sedikit gula. Rendah kalori namun tetap memuaskan selera. <a href="" class="readMore">Read
-                        More </a></p>
-            </div>
-            <div class="col item">
-                <a href=""><img src="/images/content/11 4.png" class="img-wide"></a>
-                <span class="viewCat">Trending</span>
-                <p><a href="" class="titleEvent">5 Tanda LDR Tidak Berjalan Baik</a></p>
-                <p>Ngobrol dengan pasangan terasa seperti ‘tugas’ daripada komunikasi inti. <a href="" class="readMore">Read
-                        More </a></p>
+        <div class="col-xs-12 col-sm-8 item">
+            <div class="inside">
+                <a href="" class="padding-women-mobile-image"><img
+                            src="/images/content/Image Jadi Satu Satunya Wanita di Kantor 7.png"
+                            class="img-wide"/></a>
+                <div class="desc">
+                    <span class="viewCat">Celebrity News</span>
+                    <p><a href="" class="titleEvent">Setiap Peran <br/>Itu Berharga</a></p>
+                    <p>Biasanya perlu bertahun-tahun bagi <br/> seorang aktor hingga meraih pengakuan <br/> dalam
+                        bentuk piala <a href="" class="readMore">Read More</a></p>
+                </div>
             </div>
         </div>
-    </div>
-
-
-    <div class="bilboardAds">
-        <a href="">
-            <img src="/images/content/Medium Rectangle Ads 300x250 5.png" alt=""/>
-        </a>
-    </div>
-
-    <div id="womenpreneur" class="womenpreneur">
-        <h2 class="title-section">Womenpreneur</h2>
-        <div class="womenpreneurList flex women-margin-mobile">
-
-            <div class="col-xs-12 col-sm-8 item">
-                <div class="inside">
-                    <a href="" class="padding-women-mobile-image"><img
-                                src="/images/content/Image Jadi Satu Satunya Wanita di Kantor 7.png"
-                                class="img-wide"/></a>
-                    <div class="desc">
-                        <span class="viewCat">Celebrity News</span>
-                        <p><a href="" class="titleEvent">Setiap Peran <br/>Itu Berharga</a></p>
-                        <p>Biasanya perlu bertahun-tahun bagi <br/> seorang aktor hingga meraih pengakuan <br/> dalam
-                            bentuk piala <a href="" class="readMore">Read More</a></p>
+        <div id="womenpreneurSlider" class="womenpreneur-slider mobile">
+            <div class="item col women-item-slider">
+                <a href="">
+                    <img src="/images/content/13 9.png" class="img-wide" alt=""/>
+                    <p class="title">Korean Corner</p>
+                    <p class="body">Setiap Peran Itu
+                        Berharga </p>
+                </a>
+            </div>
+            <div class="item col women-item-slider">
+                <a href="">
+                    <img src="/images/content/13 9.png" class="img-wide" alt=""/>
+                    <p class="title">Korean Corner</p>
+                    <p class="body">Setiap Peran Itu
+                        Berharga </p>
+                </a>
+            </div>
+            <div class="item col women-item-slider">
+                <a href="">
+                    <img src="/images/content/13 9.png" class="img-wide" alt=""/>
+                    <p class="title">Korean Corner</p>
+                    <p class="body">Setiap Peran Itu
+                        Berharga </p>
+                </a>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-4 item desktop">
+            <div class="inside">
+                <div class="col-8 marg">
+                    <div class="preneurThumb">
+                        <a href="">
+                            <img src="/images/content/13 9.png" class="img-wide" alt=""/>
+                            <span class="viewCat">Korean Corner</span>
+                            <p>Dr. Strange</p>
+                        </a>
+                    </div>
+                    <div class="preneurThumb">
+                        <a href="">
+                            <img src="/images/content/14 9.png" class="img-wide" alt=""/>
+                            <span class="viewCat">Korean Corner</span>
+                            <p>Serum dengan bahan aktif</p>
+                        </a>
+                    </div>
+                    <div class="preneurThumb">
+                        <a href="">
+                            <img src="/images/content/15 9.png" class="img-wide" alt=""/>
+                            <span class="viewCat">Art & Culture</span>
+                            <p>Kristen Stewart Nominasi Di Oscar</p>
+                        </a>
                     </div>
                 </div>
             </div>
-            <div id="womenpreneurSlider" class="womenpreneur-slider mobile">
-                <div class="item col women-item-slider">
+        </div>
+
+    </div>
+</div>
+<!-- <div class="womenpreneur">
+    <h2 class="title-section">Femina Women</h2>
+    <div class="womenpreneurList flex">
+
+        <div class="col-8 item">
+            <div class="inside">
+                <a href=""><img src="/images/content/Image Jadi Satu Satunya Wanita di Kantor 7.png" class="img-wide"></a>
+                <div class="desc">
+                    <span class="viewCat">Femina Women</span>
+                    <p><a href="" class="titleEvent">Kate Middleton</a></p>
+                    <p>Tas menjadi aksesori penting penunjang<br/>
+                        karier. Ini 4 jenis tas yang Anda<br/>
+                        butuhkan! Tas menjadi aksesori penting<br/>
+                        penunjang karier. Ini 4 jenis tas yang<br/>
+                        Anda butuhkan! <a href="" class="readMore">Read More</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-4 item">
+            <div class="inside">
+                <div class="col-8 marg">
+                    <div class="preneurThumb">
+                        <a href="">
+                            <img src="/images/content/13 9.png" class="img-wide" alt="">
+                            <span class="viewCat">Femina Women</span>
+                            <p>Ana Sofa Yuking</p>
+                        </a>
+                    </div>
+                    <div class="preneurThumb">
+                        <a href="">
+                            <img src="/images/content/14 9.png" class="img-wide" alt="">
+                            <span class="viewCat">Femina Women</span>
+                            <p>Kim Pangestu</p>
+                        </a>
+                    </div>
+                    <div class="preneurThumb">
+                        <a href="">
+                            <img src="/images/content/15 9.png" class="img-wide" alt="">
+                            <span class="viewCat">Femina Women</span>
+                            <p>Ada apa dengan Shea Butter?</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>  -->
+
+<div id="career" class="careerWrap family">
+    <div class="careerTitle">
+        <h2 class="title-section">Keluarga <span>oleh</span> <img
+                    src="/images/content/ayahbunda-removebg-preview 1.png"></h2>
+    </div>
+    <div class="event-slider slick-initialized slick-slider">
+        <div class="slick-list draggable">
+            <div class="slick-track" style="opacity: 1; width: 1278px; transform: translate3d(0px, 0px, 0px);">
+                <div class="item col slick-slide slick-current slick-active" data-slick-index="0"
+                     aria-hidden="false" tabindex="0" style="width: 406px;">
+                    <a href="" tabindex="0"><img src="/images/content/Image Kunci Sukses 2.png"
+                                                 class="img-wide"></a>
+                    <span class="viewCat">Beauty Tips</span>
+                    <p><a href="" class="titleEvent" tabindex="0">Kunci Sukses</a></p>
+                    <p>Lorem ipsum dolor sit amet, consectetuer
+                        adipiscing elit. Aenean commodo ligula eget
+                        dolor. Aenean massa. </p>
+                    <p class="dateEvent"><img src="/images/assets/Date Icon 5.png"> 27 Juni 2022 | 02:00 PM</p>
+                </div>
+                <div class="item col slick-slide slick-active" data-slick-index="1" aria-hidden="false" tabindex="0"
+                     style="width: 406px;">
+                    <a href="" tabindex="0"><img src="/images/content/Image Studi Terkini Tentang Empati 2.png"
+                                                 class="img-wide"></a>
+                    <span class="viewCat">Beauty Tips</span>
+                    <p><a href="" class="titleEvent" tabindex="0">Studi Terkini Tentang Empati</a></p>
+                    <p>Lorem ipsum dolor sit amet, consectetuer
+                        adipiscing elit. Aenean commodo ligula eget
+                        dolor. Aenean massa. </p>
+                    <p class="dateEvent"><img src="/images/assets/Date Icon 5.png"> 27 Juni 2022 | 02:00 PM</p>
+                </div>
+                <div class="item col slick-slide slick-active" data-slick-index="2" aria-hidden="false" tabindex="0"
+                     style="width: 406px;">
+                    <a href="" tabindex="0"><img src="/images/content/Image Nyaman di Tempat Kerja 2.png"
+                                                 class="img-wide"></a>
+                    <span class="viewCat">Beauty Tips</span>
+                    <p><a href="" class="titleEvent" tabindex="0">Nyaman di Tempat Kerja</a></p>
+                    <p>Lorem ipsum dolor sit amet, consectetuer
+                        adipiscing elit. Aenean commodo ligula eget
+                        dolor. Aenean massa. </p>
+                    <p class="dateEvent"><img src="/images/assets/Date Icon 5.png"> 27 Juni 2022 | 02:00 PM</p>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+<div class="womenpreneur videoMovie bg-white">
+    <div class="careerTitle">
+        <h2 class="title-section bg-white">Video</h2>
+    </div>
+    <div class="womenpreneurList flex">
+
+        <div class="col-md-9 col-xs-12 item">
+            <div class="inside">
+                <div class="videoPlay">
+                    <img src="/images/content/Image Article Banner 6.png" class="img-wide">
+                    <img src="/images/content/play button orange 2.png" class="playBtn"/>
+                </div>
+                <div class="desc">
+                    <p class="no-margin"><a href="" class="titleEvent">Blake Lively</a></p>
+                    <p class="no-margin">Tas menjadi aksesori penting penunjang karier. Ini 4 <br/>
+                        jenis tas yang Anda butuhkan! <br/>
+                        Tas menjadi aksesori penting penunjang karier. Ini 4<br/>
+                        jenis tas yang Anda butuhkan! </p>
+                </div>
+            </div>
+        </div>
+        <div id="videoSlider" class="video-slider mobile">
+            <div class="item col video-item-slider">
+                <a href="">
+                    <img src="/images/content/13 9.png" class="img-wide" alt=""/>
+                    <p class="title">Korean Corner</p>
+                </a>
+            </div>
+            <div class="item col video-item-slider">
+                <a href="">
+                    <img src="/images/content/13 9.png" class="img-wide" alt=""/>
+                    <p class="title">Korean Corner</p>
+                </a>
+            </div>
+            <div class="item col video-item-slider">
+                <a href="">
+                    <img src="/images/content/13 9.png" class="img-wide" alt=""/>
+                    <p class="title">Korean Corner</p>
+                </a>
+            </div>
+        </div>
+        <div class="col-md-3 col-xs-12 item desktop">
+            <div class="inside">
+                <div class="preneurThumb">
                     <a href="">
-                        <img src="/images/content/13 9.png" class="img-wide" alt=""/>
-                        <p class="title">Korean Corner</p>
-                        <p class="body">Setiap Peran Itu
-                            Berharga </p>
+                        <img src="/images/content/Image Kunci Sukses 9.png" class="img-wide" alt="">
+                        <p>The Cast Elvis</p>
                     </a>
                 </div>
-                <div class="item col women-item-slider">
+                <div class="preneurThumb">
                     <a href="">
-                        <img src="/images/content/13 9.png" class="img-wide" alt=""/>
-                        <p class="title">Korean Corner</p>
-                        <p class="body">Setiap Peran Itu
-                            Berharga </p>
+                        <img src="/images/content/Image Kesehatan Mental Setelah Covid 6.png" class="img-wide"
+                             alt="">
+                        <p>Gabriel Union</p>
                     </a>
                 </div>
-                <div class="item col women-item-slider">
+                <div class="preneurThumb">
                     <a href="">
-                        <img src="/images/content/13 9.png" class="img-wide" alt=""/>
-                        <p class="title">Korean Corner</p>
-                        <p class="body">Setiap Peran Itu
-                            Berharga </p>
+                        <img src="/images/content/Image Kunci Sukses 9.png" class="img-wide" alt="">
+                        <p>Sydney Sweeney</p>
                     </a>
                 </div>
             </div>
-            <div class="col-xs-12 col-sm-4 item desktop">
-                <div class="inside">
-                    <div class="col-8 marg">
-                        <div class="preneurThumb">
-                            <a href="">
-                                <img src="/images/content/13 9.png" class="img-wide" alt=""/>
-                                <span class="viewCat">Korean Corner</span>
-                                <p>Dr. Strange</p>
-                            </a>
-                        </div>
-                        <div class="preneurThumb">
-                            <a href="">
-                                <img src="/images/content/14 9.png" class="img-wide" alt=""/>
-                                <span class="viewCat">Korean Corner</span>
-                                <p>Serum dengan bahan aktif</p>
-                            </a>
-                        </div>
-                        <div class="preneurThumb">
-                            <a href="">
-                                <img src="/images/content/15 9.png" class="img-wide" alt=""/>
-                                <span class="viewCat">Art & Culture</span>
-                                <p>Kristen Stewart Nominasi Di Oscar</p>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-
-    <!-- <div class="womenpreneur">
-        <h2 class="title-section">Entertainment</h2>
-        <div class="womenpreneurList flex">
-
-            <div class="col-8 item">
-                <div class="inside">
-                    <a href=""><img src="/images/content/Image Jadi Satu Satunya Wanita di Kantor 7.png" class="img-wide"></a>
-                    <div class="desc">
-                        <span class="viewCat">Celebrity News</span>
-                        <p><a href="" class="titleEvent">Setiap Peran <br>Itu Berharga</a></p>
-                        <p>Biasanya perlu bertahun-tahun bagi <br> seorang aktor hingga meraih pengakuan <br> dalam bentuk piala  <a href="" class="readMore">Read More</a></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-4 item">
-                <div class="inside">
-                    <div class="col-8 marg">
-                        <div class="preneurThumb">
-                            <a href="">
-                                <img src="/images/content/13 9.png" class="img-wide" alt="">
-                                <span class="viewCat">Korean Corner</span>
-                                <p>Dr. Strange</p>
-                            </a>
-                        </div>
-                        <div class="preneurThumb">
-                            <a href="">
-                                <img src="/images/content/14 9.png" class="img-wide" alt="">
-                                <span class="viewCat">Korean Corner</span>
-                                <p>Serum dengan bahan aktif</p>
-                            </a>
-                        </div>
-                        <div class="preneurThumb">
-                            <a href="">
-                                <img src="/images/content/15 9.png" class="img-wide" alt="">
-                                <span class="viewCat">Art &amp; Culture</span>
-                                <p>Kristen Stewart Nominasi Di Oscar</p>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div> -->
-
-</div> <!-- End Container -->
-
-<footer>
-    <div class="container">
-        <div class="flex">
-            <div class="no-pad col-xs-12 col-sm-4">
-                <div class="inside">
-                    <img src="/images/assets/Logo Femina White 2.png" class="logoFooter"/>
-                    <p class="mobile">Jl. Mampang Prapatan Raya No 75 <br/>Jakarta 12790 Indonesia</p>
-                    <div class="footer-sosmed flex">
-                        <a href=""><img src="/images/assets/IG 1.png"></a>
-                        <a href=""><img src="/images/assets/FB 1.png"></a>
-                        <a href=""><img src="/images/assets/YT 1.png"></a>
-                        <a href=""><img src="/images/assets/TWT 1.png"></a>
-                        <a href=""><img src="/images/assets/PINTEREST 1.png"></a>
-                    </div>
-                    <div class="subscriber flex">
-                        <input type="text" value="" placeholder=""/>
-                        <button>SUBSCRIBE</button>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="col-xs-12 col-sm-4">
-                <div class="inside bottom-nav flex">
-                    <div class="col-xs-12 col-sm-6">
-                        <ul>
-                            <li><a href="">ABOUT</a></li>
-                            <li><a href="">CONTACT</a></li>
-                            <li><a href="">ADVERTISE</a></li>
-                            <li><a href="">PARTNERSHIP</a></li>
-                            <li><a href="">PRIVACY STATEMENT</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-xs-12 col-sm-6">
-                        <ul>
-                            <li><a href="">OUR LIFE</a></li>
-                            <li><a href="">ENTERTAINMENT</a></li>
-                            <li><a href="">LIVING</a></li>
-                            <li><a href="">FASHION</a></li>
-                            <li><a href="">BEAUTY</a></li>
-                            <li><a href="">FOOD</a></li>
-                            <li><a href="">PROMOTIONS</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-xs-12 col-sm-4">
-                <div class="inside logo-partner">
-                    <img src="/images/content/Logo PDS White 2.png" alt=""/><br/>
-                    <img src="/images/content/Logo Gadis White 2.png" alt=""/>
-                    <img src="/images/content/Logo Ayah Bunda White 2.png" alt=""/>
-                    <img src="/images/content/Logo Parenting White 2.png" alt=""/><br/>
-                    <img src="/images/content/Logo Wanita Wirausaha Femina White 2.png" alt=""/>
-                    <img src="/images/content/Logo Womens Leadership Network Femina White 2.png" alt=""/>
-                    <img src="/images/content/Logo IWF White 2.png" alt=""/>
-                    <img src="/images/content/Logo Wajah Femina White 2.png" alt=""/>
-                    <img src="/images/content/Logo Dapur Uji Femina Media White 2.png" alt=""/>
-                </div>
-            </div>
-        </div>
-        <div class="copyright">
-            © 2022 PT Prana Dinamika Sejahtera. All Rights Reserved
         </div>
 
     </div>
-</footer>
+</div>
+
+<div class="bilboardAds">
+    <a href="">
+        <img src="/images/content/Leaderboard Ads 729x90 2.png" alt=""/>
+    </a>
+</div>
+
+<div class="latestUpdate food">
+    <div class="careerTitle">
+        <h2 class="title-section">Food</h2>
+    </div>
+
+    <div class="updateList flex">
+        <div class="col item">
+            <a href=""><img src="/images/content/9 3.png" class="img-wide"></a>
+            <span class="viewCat">Trending</span>
+            <p><a href="" class="titleEvent">Padu Padan Baju Lebaran</a></p>
+            <p>Pasangan ataupun anak laki-laki biasanya lebih suka warna netral seperti putin, biru, putih, abu, dan
+                coklat. <a href="" class="readMore">Read More </a></p>
+        </div>
+        <div class="col item">
+            <a href=""><img src="/images/content/10 3.png" class="img-wide"></a>
+            <span class="viewCat">Trending</span>
+            <p><a href="" class="titleEvent">Berbuka Dengan Yang Lebih Sehat</a></p>
+            <p>Air kelapa dan sedikit gula. Rendah kalori namun tetap memuaskan selera. <a href="" class="readMore">Read
+                    More </a></p>
+        </div>
+        <div class="col item">
+            <a href=""><img src="/images/content/11 4.png" class="img-wide"></a>
+            <span class="viewCat">Trending</span>
+            <p><a href="" class="titleEvent">5 Tanda LDR Tidak Berjalan Baik</a></p>
+            <p>Ngobrol dengan pasangan terasa seperti ‘tugas’ daripada komunikasi inti. <a href="" class="readMore">Read
+                    More </a></p>
+        </div>
+    </div>
+</div>
+
+<div class="latestUpdate food">
+    <div class="careerTitle">
+        <h2 class="title-section">Lifestyle</h2>
+    </div>
+
+    <div class="updateList flex">
+        <div class="col item">
+            <a href=""><img src="/images/content/9 3.png" class="img-wide"></a>
+            <span class="viewCat">Trending</span>
+            <p><a href="" class="titleEvent">Padu Padan Baju Lebaran</a></p>
+            <p>Pasangan ataupun anak laki-laki biasanya lebih suka warna netral seperti putin, biru, putih, abu, dan
+                coklat. <a href="" class="readMore">Read More </a></p>
+        </div>
+        <div class="col item">
+            <a href=""><img src="/images/content/10 3.png" class="img-wide"></a>
+            <span class="viewCat">Trending</span>
+            <p><a href="" class="titleEvent">Berbuka Dengan Yang Lebih Sehat</a></p>
+            <p>Air kelapa dan sedikit gula. Rendah kalori namun tetap memuaskan selera. <a href="" class="readMore">Read
+                    More </a></p>
+        </div>
+        <div class="col item">
+            <a href=""><img src="/images/content/11 4.png" class="img-wide"></a>
+            <span class="viewCat">Trending</span>
+            <p><a href="" class="titleEvent">5 Tanda LDR Tidak Berjalan Baik</a></p>
+            <p>Ngobrol dengan pasangan terasa seperti ‘tugas’ daripada komunikasi inti. <a href="" class="readMore">Read
+                    More </a></p>
+        </div>
+    </div>
+</div>
 
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-        type="text/javascript"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<div class="bilboardAds">
+    <a href="">
+        <img src="/images/content/Medium Rectangle Ads 300x250 5.png" alt=""/>
+    </a>
+</div>
 
-<script type="text/javascript">
+<div id="womenpreneur" class="womenpreneur">
+    <h2 class="title-section">Womenpreneur</h2>
+    <div class="womenpreneurList flex women-margin-mobile">
 
-    const homeSlider = document.getElementById('homeSlider')
+        <div class="col-xs-12 col-sm-8 item">
+            <div class="inside">
+                <a href="" class="padding-women-mobile-image"><img
+                            src="/images/content/Image Jadi Satu Satunya Wanita di Kantor 7.png"
+                            class="img-wide"/></a>
+                <div class="desc">
+                    <span class="viewCat">Celebrity News</span>
+                    <p><a href="" class="titleEvent">Setiap Peran <br/>Itu Berharga</a></p>
+                    <p>Biasanya perlu bertahun-tahun bagi <br/> seorang aktor hingga meraih pengakuan <br/> dalam
+                        bentuk piala <a href="" class="readMore">Read More</a></p>
+                </div>
+            </div>
+        </div>
+        <div id="womenpreneurSlider" class="womenpreneur-slider mobile">
+            <div class="item col women-item-slider">
+                <a href="">
+                    <img src="/images/content/13 9.png" class="img-wide" alt=""/>
+                    <p class="title">Korean Corner</p>
+                    <p class="body">Setiap Peran Itu
+                        Berharga </p>
+                </a>
+            </div>
+            <div class="item col women-item-slider">
+                <a href="">
+                    <img src="/images/content/13 9.png" class="img-wide" alt=""/>
+                    <p class="title">Korean Corner</p>
+                    <p class="body">Setiap Peran Itu
+                        Berharga </p>
+                </a>
+            </div>
+            <div class="item col women-item-slider">
+                <a href="">
+                    <img src="/images/content/13 9.png" class="img-wide" alt=""/>
+                    <p class="title">Korean Corner</p>
+                    <p class="body">Setiap Peran Itu
+                        Berharga </p>
+                </a>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-4 item desktop">
+            <div class="inside">
+                <div class="col-8 marg">
+                    <div class="preneurThumb">
+                        <a href="">
+                            <img src="/images/content/13 9.png" class="img-wide" alt=""/>
+                            <span class="viewCat">Korean Corner</span>
+                            <p>Dr. Strange</p>
+                        </a>
+                    </div>
+                    <div class="preneurThumb">
+                        <a href="">
+                            <img src="/images/content/14 9.png" class="img-wide" alt=""/>
+                            <span class="viewCat">Korean Corner</span>
+                            <p>Serum dengan bahan aktif</p>
+                        </a>
+                    </div>
+                    <div class="preneurThumb">
+                        <a href="">
+                            <img src="/images/content/15 9.png" class="img-wide" alt=""/>
+                            <span class="viewCat">Art & Culture</span>
+                            <p>Kristen Stewart Nominasi Di Oscar</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-    homeSlider.addEventListener('slide.bs.carousel', event => {
-        interval: 2000
-        touch:true
+    </div>
+</div>
 
-    });
+<!-- <div class="womenpreneur">
+    <h2 class="title-section">Entertainment</h2>
+    <div class="womenpreneurList flex">
 
-    $('.dropdown').hover(function () {
-        $('.dropdown-toggle', this).trigger('click');
-    });
+        <div class="col-8 item">
+            <div class="inside">
+                <a href=""><img src="/images/content/Image Jadi Satu Satunya Wanita di Kantor 7.png" class="img-wide"></a>
+                <div class="desc">
+                    <span class="viewCat">Celebrity News</span>
+                    <p><a href="" class="titleEvent">Setiap Peran <br>Itu Berharga</a></p>
+                    <p>Biasanya perlu bertahun-tahun bagi <br> seorang aktor hingga meraih pengakuan <br> dalam bentuk piala  <a href="" class="readMore">Read More</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-4 item">
+            <div class="inside">
+                <div class="col-8 marg">
+                    <div class="preneurThumb">
+                        <a href="">
+                            <img src="/images/content/13 9.png" class="img-wide" alt="">
+                            <span class="viewCat">Korean Corner</span>
+                            <p>Dr. Strange</p>
+                        </a>
+                    </div>
+                    <div class="preneurThumb">
+                        <a href="">
+                            <img src="/images/content/14 9.png" class="img-wide" alt="">
+                            <span class="viewCat">Korean Corner</span>
+                            <p>Serum dengan bahan aktif</p>
+                        </a>
+                    </div>
+                    <div class="preneurThumb">
+                        <a href="">
+                            <img src="/images/content/15 9.png" class="img-wide" alt="">
+                            <span class="viewCat">Art &amp; Culture</span>
+                            <p>Kristen Stewart Nominasi Di Oscar</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-    $(document).ready(function () {
-        $('.mostView-slider').not('.slick-initialized').slick({
-            infinite: true,
-            slidesToShow: 4,
-            slidesToScroll: 1,
-            responsive: [
-                {
-                    breakpoint: 767,
-                    settings: {
-                        centerMode: true,
-                        arrows: false,
-                        infinite: true,
-                        centerPadding: '55px',
-                        slidesToShow: 2
-                    }
-                }
-            ]
-        });
-        $('.video-slider').not('.slick-initialized').slick({
-            infinite: true,
-            slidesToShow: 4,
-            slidesToScroll: 1,
-            responsive: [
-                {
-                    breakpoint: 767,
-                    settings: {
-                        centerMode: true,
-                        arrows: false,
-                        infinite: true,
-                        centerPadding: '55px',
-                        slidesToShow: 2
-                    }
-                }
-            ]
-        });
-
-        $('.womenpreneur-slider').not('.slick-initialized').slick({
-            infinite: true,
-            slidesToShow: 4,
-            slidesToScroll: 1,
-            responsive: [
-                {
-                    breakpoint: 767,
-                    settings: {
-                        centerMode: true,
-                        arrows: false,
-                        infinite: true,
-                        centerPadding: '55px',
-                        slidesToShow: 2
-                    }
-                }
-            ]
-        });
-
-        $('.updateList').not('.slick-initialized').slick({
-            infinite: true,
-            slidesToShow: 3,
-            slidesToScroll: 1,
-            responsive: [
-                {
-                    breakpoint: 767,
-                    settings: {
-                        centerMode: true,
-                        arrows: false,
-                        infinite: true,
-                        centerPadding: '55px',
-                        slidesToShow: 2
-                    }
-                }
-            ]
-        });
-
-
-        $('#eventSlide').not('.slick-initialized').slick({
-            infinite: true,
-            slidesToShow: 3,
-            slidesToScroll: 1,
-            responsive: [
-                {
-                    breakpoint: 767,
-                    settings: {
-                        centerMode: true,
-                        arrows: false,
-                        infinite: true,
-                        centerPadding: '55px',
-                        slidesToShow: 2
-                    }
-                }
-            ]
-        });
-
-        /**$('#careerSlide').not('.slick-initialized').slick({
-				infinite: true,
-				slidesToShow: 3,
-				slidesToScroll: 1,
-				responsive: [
-				{
-				  breakpoint: 767,
-				  settings: {
-					centerMode: true,
-					arrows: false,
-					infinite: true,
-					centerPadding: '55px',
-					slidesToShow: 2
-				  }
-				}
-				]
-			});**/
-
-        $('.arrMobile').click(function () {
-            $('.navbar-collapse').removeClass('show');
-        });
-    });
-
-
-</script>
-</body>
-</html>
+    </div>
+</div> -->
