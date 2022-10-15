@@ -795,3 +795,134 @@
 
     </div>
 </div> -->
+
+<script type="text/javascript">
+
+    const homeSlider = document.getElementById('homeSlider')
+
+    homeSlider.addEventListener('slide.bs.carousel', event => {
+        interval: 2000
+        touch:true
+
+    });
+
+    $('.dropdown').hover(function () {
+        $('.dropdown-toggle', this).trigger('click');
+    });
+
+    $(document).ready(function () {
+        $('.mostView-slider').not('.slick-initialized').slick({
+            infinite: true,
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            responsive: [
+                {
+                    breakpoint: 767,
+                    settings: {
+                        centerMode: true,
+                        arrows: false,
+                        infinite: true,
+                        centerPadding: '55px',
+                        slidesToShow: 2
+                    }
+                }
+            ]
+        });
+        $('.video-slider').not('.slick-initialized').slick({
+            infinite: true,
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            responsive: [
+                {
+                    breakpoint: 767,
+                    settings: {
+                        centerMode: true,
+                        arrows: false,
+                        infinite: true,
+                        centerPadding: '55px',
+                        slidesToShow: 2
+                    }
+                }
+            ]
+        });
+
+        $('.womenpreneur-slider').not('.slick-initialized').slick({
+            infinite: true,
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            responsive: [
+                {
+                    breakpoint: 767,
+                    settings: {
+                        centerMode: true,
+                        arrows: false,
+                        infinite: true,
+                        centerPadding: '55px',
+                        slidesToShow: 2
+                    }
+                }
+            ]
+        });
+
+        $('.updateList').not('.slick-initialized').slick({
+            infinite: true,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            responsive: [
+                {
+                    breakpoint: 767,
+                    settings: {
+                        centerMode: true,
+                        arrows: false,
+                        infinite: true,
+                        centerPadding: '55px',
+                        slidesToShow: 2
+                    }
+                }
+            ]
+        });
+
+
+        $('#eventSlide').not('.slick-initialized').slick({
+            infinite: true,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            responsive: [
+                {
+                    breakpoint: 767,
+                    settings: {
+                        centerMode: true,
+                        arrows: false,
+                        infinite: true,
+                        centerPadding: '55px',
+                        slidesToShow: 2
+                    }
+                }
+            ]
+        });
+
+        /**$('#careerSlide').not('.slick-initialized').slick({
+				infinite: true,
+				slidesToShow: 3,
+				slidesToScroll: 1,
+				responsive: [
+				{
+				  breakpoint: 767,
+				  settings: {
+					centerMode: true,
+					arrows: false,
+					infinite: true,
+					centerPadding: '55px',
+					slidesToShow: 2
+				  }
+				}
+				]
+			});**/
+
+        $('.arrMobile').click(function () {
+            $('.navbar-collapse').removeClass('show');
+        });
+    });
+
+
+</script>

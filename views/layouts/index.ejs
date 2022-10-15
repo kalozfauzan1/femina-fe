@@ -14,6 +14,11 @@
     <link href="/stylesheets/bootstrap.min.css" rel="stylesheet" type="text/css"/>
     <link href="/stylesheets/style.css" rel="stylesheet"/>
     <link href="/stylesheets/new-style.css" rel="stylesheet"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+            type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 </head>
 <body>
 <h1>Indonesia News Updates</h1>
@@ -30,7 +35,8 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <div class="logoMobile">
-                <img src="/images/assets/arr.png" class="arrMobile" alt="Logo Femina"/>
+                <img src="/images/assets/arr.png" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="arrMobile" alt="Logo Femina"/>
                 <img src="/images/assets/Logo-Femina.png" class="logoMobile" alt="Logo Femina"/>
             </div>
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -81,8 +87,14 @@
                 <li class="nav-item">
                     <a class="nav-link" href="">COMMUNITY</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="">PROMOTIONS</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                       aria-expanded="false">PROMOTIONS</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="/promotion-event">EVENT</a></li>
+                        <li><a class="dropdown-item" href="#">GIVEAWAY</a></li>
+                        <li><a class="dropdown-item" href="/promotion-magazine">MAGAZINE</a></li>
+                    </ul>
                 </li>
 
             </ul>
@@ -163,142 +175,10 @@
     </div>
 </footer>
 
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-        type="text/javascript"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-
 <script type="text/javascript">
-
-    const homeSlider = document.getElementById('homeSlider')
-
-    homeSlider.addEventListener('slide.bs.carousel', event => {
-        interval: 2000
-        touch:true
-
-    });
-
     $('.dropdown').hover(function () {
         $('.dropdown-toggle', this).trigger('click');
     });
-
-    $(document).ready(function () {
-        $('.mostView-slider').not('.slick-initialized').slick({
-            infinite: true,
-            slidesToShow: 4,
-            slidesToScroll: 1,
-            responsive: [
-                {
-                    breakpoint: 767,
-                    settings: {
-                        centerMode: true,
-                        arrows: false,
-                        infinite: true,
-                        centerPadding: '55px',
-                        slidesToShow: 2
-                    }
-                }
-            ]
-        });
-        $('.video-slider').not('.slick-initialized').slick({
-            infinite: true,
-            slidesToShow: 4,
-            slidesToScroll: 1,
-            responsive: [
-                {
-                    breakpoint: 767,
-                    settings: {
-                        centerMode: true,
-                        arrows: false,
-                        infinite: true,
-                        centerPadding: '55px',
-                        slidesToShow: 2
-                    }
-                }
-            ]
-        });
-
-        $('.womenpreneur-slider').not('.slick-initialized').slick({
-            infinite: true,
-            slidesToShow: 4,
-            slidesToScroll: 1,
-            responsive: [
-                {
-                    breakpoint: 767,
-                    settings: {
-                        centerMode: true,
-                        arrows: false,
-                        infinite: true,
-                        centerPadding: '55px',
-                        slidesToShow: 2
-                    }
-                }
-            ]
-        });
-
-        $('.updateList').not('.slick-initialized').slick({
-            infinite: true,
-            slidesToShow: 3,
-            slidesToScroll: 1,
-            responsive: [
-                {
-                    breakpoint: 767,
-                    settings: {
-                        centerMode: true,
-                        arrows: false,
-                        infinite: true,
-                        centerPadding: '55px',
-                        slidesToShow: 2
-                    }
-                }
-            ]
-        });
-
-
-        $('#eventSlide').not('.slick-initialized').slick({
-            infinite: true,
-            slidesToShow: 3,
-            slidesToScroll: 1,
-            responsive: [
-                {
-                    breakpoint: 767,
-                    settings: {
-                        centerMode: true,
-                        arrows: false,
-                        infinite: true,
-                        centerPadding: '55px',
-                        slidesToShow: 2
-                    }
-                }
-            ]
-        });
-
-        /**$('#careerSlide').not('.slick-initialized').slick({
-				infinite: true,
-				slidesToShow: 3,
-				slidesToScroll: 1,
-				responsive: [
-				{
-				  breakpoint: 767,
-				  settings: {
-					centerMode: true,
-					arrows: false,
-					infinite: true,
-					centerPadding: '55px',
-					slidesToShow: 2
-				  }
-				}
-				]
-			});**/
-
-        $('.arrMobile').click(function () {
-            $('.navbar-collapse').removeClass('show');
-        });
-    });
-
-
 </script>
 </body>
 </html>

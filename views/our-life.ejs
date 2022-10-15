@@ -72,7 +72,7 @@
             <h2 class="title-section">Womenpreneur</h2>
         </div>
         <div class="col-xs-6">
-            <div class="card-item-news">
+            <div class="card-item-news" onclick="gotoArticle()">
                 <img src="/images/content/Image Kesehatan Mental Setelah Covid 1.png" alt="">
                 <p class="category-item">Womenpreneur</p>
                 <p class="title-item">Kesehatan Mental Setelah
@@ -83,7 +83,7 @@
             </div>
         </div>
         <div class="col-xs-6">
-            <div class="card-item-news">
+            <div class="card-item-news" onclick="gotoArticle()">
                 <img src="/images/content/Image Kesehatan Mental Setelah Covid 1.png" alt="">
                 <p class="category-item">Womenpreneur</p>
                 <p class="title-item">Kesehatan Mental Setelah
@@ -94,7 +94,7 @@
             </div>
         </div>
         <div class="col-xs-6">
-            <div class="card-item-news">
+            <div class="card-item-news" onclick="gotoArticle()">
                 <img src="/images/content/Image Kesehatan Mental Setelah Covid 1.png" alt="">
                 <p class="category-item">Womenpreneur</p>
                 <p class="title-item">Kesehatan Mental Setelah
@@ -105,7 +105,7 @@
             </div>
         </div>
         <div class="col-xs-6">
-            <div class="card-item-news">
+            <div class="card-item-news" onclick="gotoArticle()">
                 <img src="/images/content/Image Kesehatan Mental Setelah Covid 1.png" alt="">
                 <p class="category-item">Womenpreneur</p>
                 <p class="title-item">Kesehatan Mental Setelah
@@ -132,7 +132,7 @@
     </div>
     <div class="col-md-6 col-xs-12 row">
         <div class="col-xs-6">
-            <div class="card-item-news">
+            <div class="card-item-news" onclick="gotoArticle()">
                 <img src="/images/content/Image Kesehatan Mental Setelah Covid 1.png" alt="">
                 <p class="category-item">Womenpreneur</p>
                 <p class="title-item">Kesehatan Mental Setelah
@@ -143,7 +143,7 @@
             </div>
         </div>
         <div class="col-xs-6">
-            <div class="card-item-news">
+            <div class="card-item-news" onclick="gotoArticle()">
                 <img src="/images/content/Image Kesehatan Mental Setelah Covid 1.png" alt="">
                 <p class="category-item">Womenpreneur</p>
                 <p class="title-item">Kesehatan Mental Setelah
@@ -165,7 +165,7 @@
     </div>
     <div class="col-md-6 col-xs-12 row">
         <div class="col-xs-6">
-            <div class="card-item-news">
+            <div class="card-item-news" onclick="gotoArticle()">
                 <img src="/images/content/Image Kesehatan Mental Setelah Covid 1.png" alt="">
                 <p class="category-item">Womenpreneur</p>
                 <p class="title-item">Kesehatan Mental Setelah
@@ -176,7 +176,7 @@
             </div>
         </div>
         <div class="col-xs-6">
-            <div class="card-item-news">
+            <div class="card-item-news" onclick="gotoArticle()">
                 <img src="/images/content/Image Kesehatan Mental Setelah Covid 1.png" alt="">
                 <p class="category-item">Womenpreneur</p>
                 <p class="title-item">Kesehatan Mental Setelah
@@ -191,3 +191,108 @@
         <img src="/images/content/Medium Rectangle Ads 300x250 1.png" alt="">
     </div>
 </div>
+
+<script type="text/javascript">
+
+    function gotoArticle() {
+        window.location.href = '/our-life-article'
+    }
+
+    $(document).ready(function () {
+        $('.mostView-slider').not('.slick-initialized').slick({
+            infinite: true,
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            responsive: [
+                {
+                    breakpoint: 767,
+                    settings: {
+                        centerMode: true,
+                        arrows: false,
+                        infinite: true,
+                        centerPadding: '55px',
+                        slidesToShow: 2
+                    }
+                }
+            ]
+        });
+        $('.video-slider').not('.slick-initialized').slick({
+            infinite: true,
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            responsive: [
+                {
+                    breakpoint: 767,
+                    settings: {
+                        centerMode: true,
+                        arrows: false,
+                        infinite: true,
+                        centerPadding: '55px',
+                        slidesToShow: 2
+                    }
+                }
+            ]
+        });
+
+        $('.womenpreneur-slider').not('.slick-initialized').slick({
+            infinite: true,
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            responsive: [
+                {
+                    breakpoint: 767,
+                    settings: {
+                        centerMode: true,
+                        arrows: false,
+                        infinite: true,
+                        centerPadding: '55px',
+                        slidesToShow: 2
+                    }
+                }
+            ]
+        });
+
+        $('.updateList').not('.slick-initialized').slick({
+            infinite: true,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            responsive: [
+                {
+                    breakpoint: 767,
+                    settings: {
+                        centerMode: true,
+                        arrows: false,
+                        infinite: true,
+                        centerPadding: '55px',
+                        slidesToShow: 2
+                    }
+                }
+            ]
+        });
+
+
+        $('#eventSlide').not('.slick-initialized').slick({
+            infinite: true,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            responsive: [
+                {
+                    breakpoint: 767,
+                    settings: {
+                        centerMode: true,
+                        arrows: false,
+                        infinite: true,
+                        centerPadding: '55px',
+                        slidesToShow: 2
+                    }
+                }
+            ]
+        });
+
+        $('.arrMobile').click(function () {
+            $('.navbar-collapse').removeClass('show');
+        });
+    });
+
+
+</script>
