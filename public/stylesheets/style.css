@@ -91,7 +91,7 @@ img {
 
 .container {
     margin: 0 auto;
-    max-width: 100%;
+    max-width: 1280px;
     overflow: hidden;
 }
 
@@ -574,6 +574,28 @@ footer {
     margin: 0px -10px 10px -10px;
 }
 
+
+.fam {
+    margin: 50px 0;
+    padding: 35px 79px 5px 79px;
+}
+
+.fam h2 {
+    display: inline-block;
+    position: relative;
+    z-index: 2;
+    padding: 0 20px;
+}
+
+.fam .updateList .item:nth-child(2):after,
+.fam .updateList .item:nth-child(2):before {
+    display: none;
+}
+
+.fam .updateList {
+    margin: 0px -10px 10px -10px;
+}
+
 .storyMovie {
     margin-top: 50px;
     background: #E8E8E8;
@@ -1038,7 +1060,7 @@ footer {
 /* // Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
     .family {
-        display: none;
+        /*display: none;*/
     }
 
     .mobile {
