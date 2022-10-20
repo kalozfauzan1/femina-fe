@@ -452,6 +452,26 @@ footer {
     position: relative;
 }
 
+.family-slider .item:nth-child(1):after {
+    content: '';
+    position: absolute;
+    top: -35px;
+    right: -10px;
+    height: 107%;
+    z-index: 1;
+    border-right: 1px dotted #9f9f9f;
+}
+
+.family-slider .item:nth-child(3):before {
+    content: '';
+    position: absolute;
+    top: -35px;
+    left: -10px;
+    height: 107%;
+    z-index: 1;
+    border-left: 1px dotted #9f9f9f;
+}
+
 .careerWrap .event-slider .item:nth-child(2):after {
     content: '';
     position: absolute;
@@ -831,6 +851,8 @@ footer {
     .womenpreneur:before,
     .updateList .item:nth-child(2):after,
     .updateList .item:nth-child(2):before,
+    .family-slider .item:nth-child(2):before,
+    .family-slider .item:nth-child(2):after,
     .latestUpdate:before {
         display: none;
     }
